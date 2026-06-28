@@ -9,24 +9,7 @@ This repository is a curated collection of study materials, tools, and resources
 - **CPSA Quiz**: An interactive HTML-based quiz to test your knowledge of CPSA concepts.
 - **CPSA Trainer**: Improved quizbank including per-topic drills, flashcards, weakness targeting, mock exams and an exam readiness guage based on average accuracy.
 
-## CPSA Certification Topics
-
-The following topics are covered in this repository:
-
-1. **Information Gathering**  
-   - OSINT techniques  
-   - Network enumeration  
-2. **Vulnerability Assessment**  
-   - Identifying and assessing vulnerabilities  
-   - CVSS scoring  
-3. **Exploitation**  
-   - Techniques for exploiting vulnerabilities  
-   - Exploit development basics  
-4. **Reporting**  
-   - Effective report writing  
-   - Communicating findings and recommendations  
-
-> **Note:** This repository is constantly updated to align with the latest CPSA syllabus and exam objectives.
+> **Note:** For my personal use, may not maintain
 
 ## How to Use
 
