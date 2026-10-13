@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "questions": 444,
+  "syntax": "passed",
+  "browser": "Microsoft Edge / Chromium, headless",
+  "checks": [
+    "bank invariants",
+    "old progress migration and backup",
+    "idempotent migration",
+    "malformed import rejection",
+    "100 balanced mock samples",
+    "search/filter",
+    "drill feedback",
+    "retry missed items",
+    "flash self-rating isolation",
+    "71/120 fail;72/120 pass",
+    "exam review",
+    "double-submit prevention",
+    "timer auto-submit",
+    "all question renderers",
+    "mobile overflow",
+    "no external runtime requests"
+  ],
+  "runtimeErrors": []
+}

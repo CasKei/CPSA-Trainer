@@ -1,0 +1,3491 @@
+{
+  "date": "2026-10-14",
+  "original_count": 956,
+  "final_count": 444,
+  "rewritten_ids": [
+    0,
+    3,
+    7,
+    9,
+    11,
+    12,
+    13,
+    15,
+    18,
+    19,
+    20,
+    22,
+    25,
+    27,
+    29,
+    30,
+    35,
+    38,
+    41,
+    42,
+    43,
+    44,
+    57,
+    61,
+    64,
+    69,
+    70,
+    71,
+    72,
+    75,
+    76,
+    79,
+    80,
+    81,
+    83,
+    84,
+    88,
+    89,
+    93,
+    100,
+    101,
+    105,
+    112,
+    115,
+    119,
+    123,
+    129,
+    130,
+    131,
+    133,
+    141,
+    142,
+    149,
+    151,
+    153,
+    155,
+    156,
+    157,
+    164,
+    169,
+    171,
+    175,
+    178,
+    180,
+    182,
+    184,
+    185,
+    190,
+    191,
+    192,
+    193,
+    195,
+    196,
+    198,
+    199,
+    205,
+    207,
+    208,
+    215,
+    216,
+    217,
+    219,
+    221,
+    222,
+    225,
+    231,
+    234,
+    240,
+    242,
+    246,
+    260,
+    261,
+    262,
+    263,
+    264,
+    267,
+    270,
+    272,
+    275,
+    277,
+    287,
+    304,
+    307,
+    329,
+    331,
+    334,
+    336,
+    350,
+    353,
+    355,
+    359,
+    360,
+    362,
+    378,
+    381,
+    382,
+    383,
+    395,
+    399,
+    400,
+    402,
+    411,
+    415,
+    421,
+    430,
+    439,
+    457,
+    465,
+    474,
+    475,
+    476,
+    482,
+    483,
+    485,
+    491,
+    500,
+    516,
+    520,
+    533,
+    536,
+    556,
+    608,
+    611,
+    612,
+    622,
+    646,
+    649,
+    654,
+    655,
+    656,
+    657,
+    658,
+    660,
+    671,
+    672,
+    677,
+    678,
+    679,
+    681,
+    684,
+    685,
+    686,
+    687,
+    689,
+    690,
+    691,
+    692,
+    694,
+    695,
+    696,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    719,
+    720,
+    722,
+    723,
+    729,
+    731,
+    732,
+    733,
+    734,
+    740,
+    741,
+    745,
+    746,
+    748,
+    753,
+    763,
+    770,
+    771,
+    779,
+    798,
+    805,
+    817,
+    818,
+    819,
+    827,
+    833,
+    835,
+    854,
+    861,
+    866,
+    871,
+    877,
+    879,
+    882,
+    885,
+    896,
+    909,
+    915,
+    926,
+    934,
+    940,
+    942,
+    951
+  ],
+  "new_ids": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011,
+    1012,
+    1013,
+    1014,
+    1015,
+    1016,
+    1017,
+    1018,
+    1019,
+    1020,
+    1021,
+    1022,
+    1023,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1061,
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1100,
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1111
+  ],
+  "retired": [
+    {
+      "id": 5,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which operating system is most likely to be vulnerable to the TTYPROMPT vulnerability in the telnet service?"
+    },
+    {
+      "id": 14,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the name given to the field concerned with the security implications of electronic eminations from communications equipment?"
+    },
+    {
+      "id": 17,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would you expect the command \"finger 0@hostname\" (that is a zero) against a Solaris 8 system to display?"
+    },
+    {
+      "id": 21,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What effect does setting the RestrictAnonymous registry setting to 1 have on a Windows NT or 2000 system?"
+    },
+    {
+      "id": 24,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would an SNMP request to set OID 1.3.6.1.4.1.9.2.1.55.10.0.0.1 to \"file\" on a Cisco router using a community string with read/write access do?"
+    },
+    {
+      "id": 32,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the DBSNMP user on Oracle 9i?"
+    },
+    {
+      "id": 36,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT an EAP method?"
+    },
+    {
+      "id": 37,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the significance of the string \"SEP\" in the configuration filename of a Cisco IP phone?"
+    },
+    {
+      "id": 39,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following are all ONC/RPC services?"
+    },
+    {
+      "id": 40,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "When was the Apache chunked encoding vulnerability fixed in version 1.3?"
+    },
+    {
+      "id": 46,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "A web server returns \"Server: Microsoft-IIS/5.0\" in the HTTP headers. What operating system is it probably using?"
+    },
+    {
+      "id": 50,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What TCP port does Microsoft SQL Server listen on in hidden mode?"
+    },
+    {
+      "id": 51,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "During a penetration test, you gain access to a database containing personal details of staff. What is the best course of action?"
+    },
+    {
+      "id": 58,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You find a system that is offering the NFS RPC service. What is the logical next step?"
+    },
+    {
+      "id": 62,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The UK Government protective marking levels are, from lowest to highest protection:"
+    },
+    {
+      "id": 65,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following statements about the time protocols \"time\", \"daytime\" and \"NTP\" are correct?"
+    },
+    {
+      "id": 67,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What command would you use to list the installed patches on a Solaris system?"
+    },
+    {
+      "id": 77,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which nmap command performs a half-open or \"SYN\" TCP portscan?"
+    },
+    {
+      "id": 86,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of these methods is the best way to determine if a remote host is running an X Window server that allows remote connections from the local host?"
+    },
+    {
+      "id": 87,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the SYS user on Oracle 9i and 10g?"
+    },
+    {
+      "id": 90,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You connect to TCP port 22 on a target system and receive the banner \"SSH-1.99-OpenSSH_3.9p1\". Which of the following statements about this system are true?"
+    },
+    {
+      "id": 91,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What are the three main pieces of legislation that are relevant to penetration testing in the UK?"
+    },
+    {
+      "id": 94,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "When was the Apache chunked encoding vulnerability fixed in version 2.0?"
+    },
+    {
+      "id": 95,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "The register_globals setting in php.ini is"
+    },
+    {
+      "id": 96,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What command might you use to obtain a list of systems from a master browser, together with details about the version and available services."
+    },
+    {
+      "id": 97,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What password hashes are stored by default on a Windows 2003 system?"
+    },
+    {
+      "id": 102,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Should users be informed that a penetration test is being carried out?"
+    },
+    {
+      "id": 103,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which tool is commonly used for passive TCP/IP fingerprinting?"
+    },
+    {
+      "id": 104,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What amount of disruption to the client's systems is acceptable during a penetration test?"
+    },
+    {
+      "id": 109,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the blocksize of the AES encryption cipher?"
+    },
+    {
+      "id": 110,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the security model that limits Java applications to a restricted set of functions?"
+    },
+    {
+      "id": 117,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which string in a NetBIOS name indicates that the specified host is a Master Browser?"
+    },
+    {
+      "id": 118,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the underlying cause of the WEP vulnerability?"
+    },
+    {
+      "id": 120,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "On a Solaris system, what controls if the superuser is allowed to login over Telnet?"
+    },
+    {
+      "id": 125,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What are the seven OSI layers, from lowest to highest?"
+    },
+    {
+      "id": 132,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In a Pentest you get the following results from a SMB NULL session:\n\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR 1331\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR\nnet use \\\\hostname\\ipc$ \"password\" /u:\"guest\"\nERROR 1909\n\nWhat answer is correct?"
+    },
+    {
+      "id": 134,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What protocol does traceroute on Linux use?"
+    },
+    {
+      "id": 135,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which is not a HTTP request method"
+    },
+    {
+      "id": 136,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is a URL?"
+    },
+    {
+      "id": 137,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is WPA?"
+    },
+    {
+      "id": 138,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is WEP?"
+    },
+    {
+      "id": 139,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What answer for PEAP and LEAP is correct?"
+    },
+    {
+      "id": 140,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is SIP"
+    },
+    {
+      "id": 143,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is a symmetric encrypted cipher?"
+    },
+    {
+      "id": 144,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the Asynchronous JavaScript and XML language?"
+    },
+    {
+      "id": 145,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does MAC (address) mean?"
+    },
+    {
+      "id": 146,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is CDP?"
+    },
+    {
+      "id": 147,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is NetBIOS?"
+    },
+    {
+      "id": 148,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many Bytes has IPv4?"
+    },
+    {
+      "id": 150,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many Bytes has a MAC (address)?"
+    },
+    {
+      "id": 154,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the subnet mask of 192.168.1.0/255.255.255.248 (RFC1878)?"
+    },
+    {
+      "id": 158,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the maximum character size of LM Hashes?"
+    },
+    {
+      "id": 159,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which public source would you use to look up a specific, publicly disclosed software vulnerability?"
+    },
+    {
+      "id": 163,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What device is expected if you see\n\nTelnet\n\nUser Access Verification\n\nPassword:"
+    },
+    {
+      "id": 165,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A _____ is a delegated DNS entry and will can be subverted into other _____(s)?"
+    },
+    {
+      "id": 167,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is a common weakness in IIS7?"
+    },
+    {
+      "id": 168,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Where is the Ntds.dit stored?"
+    },
+    {
+      "id": 170,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is NOT a valid DNS type?"
+    },
+    {
+      "id": 172,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Whats does hosts.equiv do when it looks like this host+ donald duck"
+    },
+    {
+      "id": 173,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the (3) three combo in cyber security mean?"
+    },
+    {
+      "id": 174,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "On which Port does Oracle TNS listen?"
+    },
+    {
+      "id": 176,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which system do you expect when Port 2301 shows up in a port scan result?"
+    },
+    {
+      "id": 177,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What command shows the version of a Oracle RDBMS?"
+    },
+    {
+      "id": 179,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which server is meant when you see http://HOST/~username/index.html in the web log getting bruteforced?"
+    },
+    {
+      "id": 181,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A client in a previous pentest got the recommendation to uncomment the \"mod_userdir\" directive. Which server system was meant?"
+    },
+    {
+      "id": 183,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which commandline util identifies programs and files loaded on start?"
+    },
+    {
+      "id": 186,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "When testing a MySQL databse for blind SQL injection, which statement would be used?"
+    },
+    {
+      "id": 187,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "During a pentest the \"sa\" account was dumped from a database. What is the salt in \n\n\"0100F733058A07892C5CACE899768F89965F6BD1DED7955FE89E1C9A10E27849B0B213B5CE92CC9347ECCB34C3EFADAF2FD99BFFECD8D9150DD6AACB5D409A9D2652A4E0AF16\"?"
+    },
+    {
+      "id": 188,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many possible hosts are in class A network?"
+    },
+    {
+      "id": 189,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many possible hosts are in class B network?"
+    },
+    {
+      "id": 194,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is OSFP?"
+    },
+    {
+      "id": 197,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which command can help to escalate privileges on a MS-SQL instance?"
+    },
+    {
+      "id": 200,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In a LSASS dump the output is the follwing. You know the password of John is \"ARSENAL4\". What is most obvoise be the password of Harry?\n\nJohn::N46iSNekpT:08ca45b7d7ea58ee:49CA47D9CBE6ACE90A8818AAE016732A\nHarry::N46iSNekpT:08ca45b7d7ea58ee:C58D3CD2C6AC6AA6BC1C9F3DDDAC38EB"
+    },
+    {
+      "id": 201,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A client offers credit cards with CVV, username and andress. What is suggested to the customer for security reasons?"
+    },
+    {
+      "id": 202,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "During a pentest you receive the error message:\n\n\"Query does not contain valid keyword.\"\n\nWhich answer is correct?"
+    },
+    {
+      "id": 203,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What kind of problem can arise when a HTTP-Proxy allows only using plain text?"
+    },
+    {
+      "id": 204,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Oracle introduced the PLSQLExclusionList, what answer is correct?"
+    },
+    {
+      "id": 209,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Where on the OSI Layer is UDP?"
+    },
+    {
+      "id": 210,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Where on the OSI Layer is TCP?"
+    },
+    {
+      "id": 211,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Where on the OSI Layer is HTTP?"
+    },
+    {
+      "id": 212,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "On a Solaris system the following shows up:\n\nPort 32000 - open - ruserd\n\nWhich answer is correct?"
+    },
+    {
+      "id": 213,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A client reports a breach of their source code. The customer is asking for remediation advice. What answers are true?\n\nA) The databse was dumped, therefore credentials have been leaked.\nB) All user credentials and seesion cookies could have been leaked. \nC) The attacker can gain further knowledge on application logical flaws."
+    },
+    {
+      "id": 214,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is a Thick client?"
+    },
+    {
+      "id": 218,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which port does finger use?"
+    },
+    {
+      "id": 220,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which command is correct on Windows util \"nslookup\" to identify the version of bind?"
+    },
+    {
+      "id": 223,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which one provides confidentiality?"
+    },
+    {
+      "id": 224,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of these is not a network service that can be used for obtaining usernames?"
+    },
+    {
+      "id": 227,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The following file is downloaded from a SIP phone. What does this tell you? `SEP<MAC ADDRESS>`"
+    },
+    {
+      "id": 228,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many bits, bytes, and octets are there in an IPv4 address?"
+    },
+    {
+      "id": 229,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which SIP enumeration method is the stealthiest?"
+    },
+    {
+      "id": 233,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following are not routing protocols?"
+    },
+    {
+      "id": 236,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What hash takes the following format? `$1$1rTyJkaB$TWF892DEF2op27IPNB1Uhi`"
+    },
+    {
+      "id": 237,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does the rusers command do?"
+    },
+    {
+      "id": 238,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "WEP-based wireless systems can have their key-space reduced and broken by a brute-force attack by utilizing a statistical attack based on weak?"
+    },
+    {
+      "id": 243,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "From the OSI model which layer is being described...This layer allows access to network resources, so this could be thought of like a web browser on your computer, as it allows you to access websites on the internet (which are network resources)"
+    },
+    {
+      "id": 244,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You are preparing to test a customer’s wireless network which will involve traffic capture. Which of the following pieces of legislation is NOT relevant?"
+    },
+    {
+      "id": 249,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A Web Server returns 'Server: Microsoft-IIs/7.0' from a banner grab, what operating system can we assume it's probably running?"
+    },
+    {
+      "id": 250,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "If ICMP were being filtered at firewall what nmap option would you use to scan 105.162.16.35?"
+    },
+    {
+      "id": 251,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following techniques can be used to prevent man-in-the-middle attacks?"
+    },
+    {
+      "id": 252,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the strongest Hash?"
+    },
+    {
+      "id": 253,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following protocols provides confidentiality and integrity and is not vulnerable to MITM?"
+    },
+    {
+      "id": 255,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which IIS version does Windows Server 2003 use?"
+    },
+    {
+      "id": 256,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A web server returns 'server: Microsoft-IIs/6.0' in the HTTP header. What operating system is it probably using?"
+    },
+    {
+      "id": 259,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why might a pen tester look for all files that have the mode bit 4000 set?"
+    },
+    {
+      "id": 265,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Older TCP implementations have been known to be vulnerable to an attack that permits an attacker to send packets with a spoofed source address, What is the name of this attack?"
+    },
+    {
+      "id": 266,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is SOAP Service?"
+    },
+    {
+      "id": 268,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "The resulting business impact of the pentest engagement is explained in what section of the final report?"
+    },
+    {
+      "id": 269,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which Nmap switches would you use in conjunction to call the Nmap script engine and bypass firewall evasion?"
+    },
+    {
+      "id": 271,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is a method of gathering usernames from a Linux System?"
+    },
+    {
+      "id": 274,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does MySQL listen on by default?"
+    },
+    {
+      "id": 276,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which service typically uses port 3306?"
+    },
+    {
+      "id": 279,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A pentester used a client-side browser exploit from Metasploit to get an unprivileged shell prompt on the target Windows desktop. The pentester next tries using the getsystem command to perform a local privilege escalation attempt which failed, what could resolve this issue?"
+    },
+    {
+      "id": 280,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What password hashes are stored by default on a Windows 2003 system? Choose 2"
+    },
+    {
+      "id": 282,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What command would you use to display the version number of a MySQL database via terminal?"
+    },
+    {
+      "id": 283,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have managed to compromise a Windows workstation using Metasploit and injected a Meterpreter payload into the smss process. You now want to dump the SAM database of the remote system so you can crack it offline. Which Meterpreter module would you need to load in addition to the defaults so that you can accomplish this?"
+    },
+    {
+      "id": 285,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Coded Hound corporation has decided to setup wireless (IEEE 802.11) network in their sales branch in Asia but have found that channels 1,6,9,11 are in use by neighboring offices, what is the best channel to use next?"
+    },
+    {
+      "id": 286,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which type of XSS vulnerability is the hardest for automated testing tools to detect and for what reason?"
+    },
+    {
+      "id": 288,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You are pentesting a system and want to use Metasploit 3.X to open a listening port on the system so you can access it via a netcat shell. Which stager would you use to have the system listen on TCP port 50000?"
+    },
+    {
+      "id": 289,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "How can a non-privileged user on a Unix system determine if shadow passwords are being used?"
+    },
+    {
+      "id": 290,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which encryption cipher uses 128, 192, and 256-bit key lengths?"
+    },
+    {
+      "id": 291,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "The string '\" or 1 = 1 and 'a' ='a\" is a basic test for what type of vulnerability?"
+    },
+    {
+      "id": 292,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "If the web server returns [server: Microsoft-IIS/5.1] within the HTTP headers. What OS is this likely to be?"
+    },
+    {
+      "id": 294,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following best explains why you would warn users to clear browser state (history, cache & cookies) between examinations of web servers when you have been trapping, collecting, and altering values with a non-transparent proxy tool?"
+    },
+    {
+      "id": 295,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Approximately how many packets are usually required to conduct a successful FMS attack on WEP?"
+    },
+    {
+      "id": 297,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the default port number for MySQL?"
+    },
+    {
+      "id": 298,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which Nmap command performs a half-open or 'SYN' TCP port scan?"
+    },
+    {
+      "id": 299,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What command is used to display the version number of an Apache server via terminal?"
+    },
+    {
+      "id": 301,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a weak encryption algorithm?"
+    },
+    {
+      "id": 305,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the 'nmap -O' option do?"
+    },
+    {
+      "id": 306,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the purpose of the OSI Application layer?"
+    },
+    {
+      "id": 310,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which protocol operates at the Transport layer of the OSI model?"
+    },
+    {
+      "id": 311,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is an example of a Type 1 Hypervisor?"
+    },
+    {
+      "id": 313,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the difference between a network vulnerability assessment and a penetration test?"
+    },
+    {
+      "id": 314,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which process would you NOT expect to be included in a penetration test?"
+    },
+    {
+      "id": 315,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have been asked to prepare a quote for a potential client who is requesting a penetration test. Which of the following listed items is the most important to ensure the success of the penetration test?"
+    },
+    {
+      "id": 316,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In a penetration test, you and your colleagues identify instances of child pornography on a server. Which of the following would you contact?"
+    },
+    {
+      "id": 317,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In a penetration test, you find evidence of insider trading and financial fraud, which of the following entities would you contact?"
+    },
+    {
+      "id": 318,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In a penetration test, you identify that a malicious insider has hacked an internal mail server. Which of the following organisations would you contact?"
+    },
+    {
+      "id": 319,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The UK Government protective marking levels are, from lowest to highest protection?"
+    },
+    {
+      "id": 320,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What action did the Communications Act 2003 make illegal?"
+    },
+    {
+      "id": 321,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which are the three computer misuse offences defined by the UK Computer Misuse Act 1990?"
+    },
+    {
+      "id": 322,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which laws need to be considered when performing a penetration test?"
+    },
+    {
+      "id": 323,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following are the two primary U.S. laws that address cybercrime?"
+    },
+    {
+      "id": 324,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which part of the Human Rights Act might a hacker risk breaching?"
+    },
+    {
+      "id": 325,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is the best definition of risk analysis when discussing IT security?"
+    },
+    {
+      "id": 326,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is the most serious risk associated with vulnerability assessment tools?"
+    },
+    {
+      "id": 327,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "An IDS detected a NOP sled. What kind of attack does this indicate?"
+    },
+    {
+      "id": 328,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Where would a security specialist look for a hooked process?"
+    },
+    {
+      "id": 330,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "While examining a file from a suspected hacker’s laptop, you come across the following snippet of code: char linuxcode[]= /* Lam3rZ chroot() code */ “\\x31\\xc0\\x31\\xdb\\x31\\xc9\\xb0\\x46\\xcd\\x80\\x31\\xc0\\x31\\xdb” ... What is its purpose?"
+    },
+    {
+      "id": 332,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "You are performing an attack simulation and need to disable the anti-virus on a Windows host to deploy your tools. Which of the following options would cause the LEAST AMOUNT of damage to a workstation?"
+    },
+    {
+      "id": 335,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "To what does the following RFC 1594 definition refer? 'A self-contained, independent entity of data carrying sufficient information to be routed from the source to the destination computer without reliance on earlier exchanges between this source and destination computer and the transporting network.'"
+    },
+    {
+      "id": 339,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following does NOT correspond to an RFC 1918 reserved address range?"
+    },
+    {
+      "id": 340,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following ICMP packets might be returned if you issue an ICMP type 8 request to an IP address on the local network that has not been assigned to a computer?"
+    },
+    {
+      "id": 341,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT a correct definition of stream?"
+    },
+    {
+      "id": 342,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which part of an IP header contains the source and destination IP addresses?"
+    },
+    {
+      "id": 343,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What type of attacks do some firewalls try to limit by enforcing rules on how long a GET or POST request can be?"
+    },
+    {
+      "id": 346,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the following Snort rule used for? #alert tcp any any -> $HOME_NET 'Policy Violation Detected'; threshold: type both, track; classtype: successful-user; (msg: dsize: 52; flags: AP; by_src, count 3, seconds 60; sid:2001637; rev:3;)"
+    },
+    {
+      "id": 347,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the purpose of the following Snort rule? alert tcp any any -> 192.168.160.0/24 12345 (msg: 'Possible Trojan access');"
+    },
+    {
+      "id": 348,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following best describes firewalking?"
+    },
+    {
+      "id": 349,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "DES has an effective key length of which of the following?"
+    },
+    {
+      "id": 351,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What happens if you digitally sign and inject a footer on an e-mail message in the wrong order?"
+    },
+    {
+      "id": 352,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What hashing algorithm produces a 128-bit hash value?"
+    },
+    {
+      "id": 354,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the difficulty with Symmetric encryption?"
+    },
+    {
+      "id": 356,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which encryption algorithm uses prime numbers to generate keys?"
+    },
+    {
+      "id": 361,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is considered the weakest form of DES?"
+    },
+    {
+      "id": 363,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following represents the weakest form of security?"
+    },
+    {
+      "id": 364,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the md5(null)?"
+    },
+    {
+      "id": 365,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A system encrypts data prior to transmitting it over a network, and the system on the other end of the transmission media decrypts it. If the systems are using a symmetric encryption algorithm for encryption and decryption, which of the following statements is true?"
+    },
+    {
+      "id": 366,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "How many bits does SYSKEY use for encryption?"
+    },
+    {
+      "id": 368,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "In an IPSEC VPN there are four main attribute classes. Which of the following is NOT one of those classes?"
+    },
+    {
+      "id": 369,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Of the following choices, what can you use to encrypt e-mail?"
+    },
+    {
+      "id": 370,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Of the following choices, what is a benefit of IPsec?"
+    },
+    {
+      "id": 371,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Sally encrypted a project file with her public key. Later, an administrator accidentally deleted her account that had exclusive access to her private key. Can this project file be retrieved?"
+    },
+    {
+      "id": 372,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What do programs, such as Tripwire, MD5sum, and Windows System File Protection, all rely on?"
+    },
+    {
+      "id": 373,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is IKE?"
+    },
+    {
+      "id": 374,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is SSL used for?"
+    },
+    {
+      "id": 375,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following key sizes is considered the minimum recommended for a new SSL certificate?"
+    },
+    {
+      "id": 376,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following protocols was developed to be used for key exchange?"
+    },
+    {
+      "id": 377,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following services does not encrypt its traffic?"
+    },
+    {
+      "id": 379,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following uses the same key to encode and decode data?"
+    },
+    {
+      "id": 380,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which ports do you have to open on a firewall to allow IKE VPN to function correctly?"
+    },
+    {
+      "id": 386,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is a program used to wardial?"
+    },
+    {
+      "id": 387,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Loki uses which of the following by default?"
+    },
+    {
+      "id": 388,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which authentication method is supported by RIPv1?"
+    },
+    {
+      "id": 389,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is a security feature of OSPF, rather than a vulnerability?"
+    },
+    {
+      "id": 390,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Jack is conducting an assessment of a target network. He knows that there are services, such as web and mail, although he cannot get a ping reply from these devices. Which of the following is the most likely reason that he is having difficulty with this task?"
+    },
+    {
+      "id": 391,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Where does Record Route (ping -r) store the list of hops?"
+    },
+    {
+      "id": 392,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following indicates an ICMP destination unreachable type?"
+    },
+    {
+      "id": 393,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT used for network mapping?"
+    },
+    {
+      "id": 394,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You are preparing to perform a subnet scan. Which of the following Nmap switches would be useful for performing a UDP scan of the lower 1024 UDP ports?"
+    },
+    {
+      "id": 397,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Consider the following output from your connection to an open port on a target: C:\\>telnet 10.10.10.1 8000 Microsoft Windows XP [Version 5.1.2600] (C) Copyright 1985-2001 Microsoft Corp. E:\\inetpub\\scripts> Which of the following services are most likely listening on TCP port 8000 of the target?"
+    },
+    {
+      "id": 398,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How can you tell when a TCP port is open on a target IP address?"
+    },
+    {
+      "id": 403,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a valid nmap scan option?"
+    },
+    {
+      "id": 405,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "An organization has a web security gateway installed. What function is this performing?"
+    },
+    {
+      "id": 406,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following best describes a wrapper?"
+    },
+    {
+      "id": 407,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "While scanning the target network, you discovered that all the web servers in the DMZ respond to ACK packets on port 80. What does this tell you?"
+    },
+    {
+      "id": 412,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You have been asked if there are any tools that can be used to run a covert channel over ICMP. What should you suggest?"
+    },
+    {
+      "id": 413,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What device has a TTL of 255?"
+    },
+    {
+      "id": 414,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following User agent strings belongs to a Windows 7 IE 11 Client?"
+    },
+    {
+      "id": 416,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does BTLE stand for?"
+    },
+    {
+      "id": 417,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What frequency does Bluetooth operate on by default?"
+    },
+    {
+      "id": 418,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You would like to scan for Bluetooth devices that are used in the office. Which of the following tools would work best?"
+    },
+    {
+      "id": 419,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Searching the Whois repository for a penetration testing customer has provided the name and telephone number of a member of staff. Which of the following techniques COULD DIRECTLY be used by an attacker with this information?"
+    },
+    {
+      "id": 422,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In the SOA record below, which is the serial number of the DNS server, lab.net. 3600 IN SOA dc01.lab.net. hostmaster.lab.net. 2000093195 900 600 86400 3600?"
+    },
+    {
+      "id": 423,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "One of your team members has asked you to analyze the following SOA record: Test123.com.SOA NS1.test123.com person.com (200509024 3600 3600 604800 2400) Based on this information, which of the following is the correct TTL?"
+    },
+    {
+      "id": 425,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the following query attempt to do, where dns.target.com is a DNS server: dig @dns.target.com version.bind txt chaos?"
+    },
+    {
+      "id": 426,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following commands attempts to obtain a zone transfer?"
+    },
+    {
+      "id": 427,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a type of DNS record?"
+    },
+    {
+      "id": 428,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following terms should replace something in the following description? [Source: Name Server Operations Guide for BIND Release 4.9.5]. A thing is a point of delegation in the DNS tree. It contains all names from a certain point 'downward' except those which are delegated to other things."
+    },
+    {
+      "id": 429,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You are hoping to exploit a DNS server and access the zone records. As such, when does a secondary name server request a zone transfer from a primary name server?"
+    },
+    {
+      "id": 431,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What helps ensure availability in the event of an extended power outage?"
+    },
+    {
+      "id": 432,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following provides fault tolerance through disk mirroring?"
+    },
+    {
+      "id": 433,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the following SNMP command do, assuming private to be the correct read-write community name for the Cisco router <device name>? C:\\>snmpset -v 1 -c private <device name> ccCopyProtocol.<random number> integer 1 ccCopySourceFileType.<Random number> integer 1 ccCopyDestFileType.<Random number> integer 3 ccCopyServerAddress.<Random number> ipaddress \"<server ip address>\" ccCopyFileName.<Random number> octetstring \"<file name>\" ccCopyEntryRowStatus.<Random number> integer 4?"
+    },
+    {
+      "id": 434,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the following SNMP MIB do then used in conjunction with the variable x? .1.3.6.1.4.1.9.2.1.53.172.16.2.1?"
+    },
+    {
+      "id": 435,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the correct SNMP MIB for enumerating Users on Windows?"
+    },
+    {
+      "id": 436,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the correct SNMP MIB for listing UNIX Process Owners?"
+    },
+    {
+      "id": 437,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "When downloading the running config from a Cisco router, which of the following sets the SourceFileType to running-config?"
+    },
+    {
+      "id": 438,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a weak, reversible cipher that can be used by Cisco routers to encrypt passwords?"
+    },
+    {
+      "id": 441,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have just completed a scan of your servers, and you found port 12345 open. Which of the following programs uses that port by default?"
+    },
+    {
+      "id": 442,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "After gaining access to a span of network that connects local systems to a remote site, you discover that you can easily intercept traffic and data. Which of the follow should you recommend in your report as a countermeasure?"
+    },
+    {
+      "id": 443,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "As you prepare to set up a covert channel using Netcat, you are worried about your traffic being sniffed on the network. Which of the following is your best option?"
+    },
+    {
+      "id": 444,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What happens if the TTL (time to live) reaches 0 before a given packet arrives at its destination?"
+    },
+    {
+      "id": 445,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is characteristic of C2C (command & control) traffic?"
+    },
+    {
+      "id": 446,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A network you are testing has NAC, that filters the MAC address of devices. Which of the following would you be likely to do in order to gain access to the network?"
+    },
+    {
+      "id": 447,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is this: 17:57:57.850175 802.1d config 8064.00:0c:85:f1:3f:80.8010 root 8064.00:0b:46:48:29:80 pathcost 19 age 1 max 20 hello 2 fdelay 15?"
+    },
+    {
+      "id": 448,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following protocols is proprietary to Cisco?"
+    },
+    {
+      "id": 449,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Your sniffing attempts have been less than successful, as the targeted LAN is using a switched network. Luckily, a co-worker introduced you to Cain. What type of attack can Cain perform against switches to make your sniffing attempt more successful?"
+    },
+    {
+      "id": 450,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a valid sequence of SIP methods as defined by RFC 3261?"
+    },
+    {
+      "id": 452,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Disabling which of the following would make your wireless network more secure against unauthorized access?"
+    },
+    {
+      "id": 453,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "WEP uses a 4 byte Integrity Check Value (ICV) computed on the original packet using the CRC-32 checksum algorithm and appended to the end. What attack would an attacker be trying to achieve by transmitting a packet without an ICV?"
+    },
+    {
+      "id": 454,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following packets reveals the SSID of a cloaked Access Point?"
+    },
+    {
+      "id": 455,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following are potential benefits of deauthentication attack against one or more wireless clients? S1 Recovering a hidden ESSID S2 Capturing WPA/WPA2 handshakes S3 Generating ARP requests?"
+    },
+    {
+      "id": 456,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following authentication mechanisms can provide centralized authentication for a wireless network?"
+    },
+    {
+      "id": 459,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following statements about SSIDs is correct?"
+    },
+    {
+      "id": 460,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which one of the following security mechanisms did WEP implement incorrectly, allowing attackers to crack it?"
+    },
+    {
+      "id": 461,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "While performing a penetration test for an ISP that provides Internet connection services to airports for their wireless customers, you have been presented with the following issues: The ISP uses Wireless Transport Layer Security (WTLS) and Secure Socket Layers (SSL) technology to protect the airport's end-users' authentication and payment transactions. Which of the following are you most concerned about?"
+    },
+    {
+      "id": 464,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You have been asked to set up an access point and override the signal of a real access point. This way, you can capture the user's authentication as he attempts to log in. What kind of attack is this?"
+    },
+    {
+      "id": 466,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You recently completed a wireless audit of your company's wireless network. You've identified several unknown devices connected to the network and realize they are devices owned by company employees. What can you use to prevent these devices from connecting?"
+    },
+    {
+      "id": 467,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You want to identify the physical location of a rogue access point you discovered in the footprint of your company. What would you use?"
+    },
+    {
+      "id": 468,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does NAC refer to in respect to Cisco?"
+    },
+    {
+      "id": 469,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would be the effect of writing the string x to the following OID on a Cisco router running IOS 11, .1.3.6.1.4.1.9.2.1.53.172.25.1.1?"
+    },
+    {
+      "id": 470,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would be the effect of writing the string x to the following OID on a Cisco router running IOS 11, .1.3.6.1.4.1.9.2.1.55.172.25.1.1?"
+    },
+    {
+      "id": 471,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "When downloading a Cisco router's config file, which of the following OIDs would be used to set the SourceFileType?"
+    },
+    {
+      "id": 472,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You are preparing to attack several critical servers and perform the following command: net use \\\\windows_server\\ipc$ “” /u:“” What is its purpose?"
+    },
+    {
+      "id": 473,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "When working with Windows systems, what is the RID of the first user account?"
+    },
+    {
+      "id": 477,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following Windows programs will list all the members of the Master Browser List?"
+    },
+    {
+      "id": 479,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following statements is TRUE immediately BEFORE the above?"
+    },
+    {
+      "id": 480,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Consider the following output, obtained from a Windows XP SAM database. Given that user CESC has a password “ARSENAL4”, which of the following is the most likely password for HENRY? User cesc RID 1041 LANMAN hash 2B02E03A31FAE1ECFF17365FAF1FFE89 NTLM hash 49CA47D9CBE6ACE90A8818AAE016732A User henry RID 1038 LANMAN hash 2B02E03A31FAE1EC120758FBF9E8A7F8 NTLM hash 5A1FF2BB59185C2CA7477EC40244AA8F?"
+    },
+    {
+      "id": 481,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Peter has successfully stolen the SAM from a system he has been examining for several days. Here is the output: Administrator:1008:6145CBC5A0A3E8C6AAD3B435B51404EE Donald:1000:16AC416C2658E00DAAD3B435B51404EE Tony:1004:AA79E536EDFC475E813EFCA2725F52B0 Chris:0:A00B9194BEDB81FEAAD3B435B51404EE George:1003:6ABB219687320CFFAAD3B435B51404EE Billy:500:648948730C2D6B9CAAD3B435B51404EE From the preceding list, identify the user with Administrator privileges?"
+    },
+    {
+      "id": 484,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which service (typically) runs on TCP port 3389?"
+    },
+    {
+      "id": 486,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "You just noticed a member of your pen test team sending an email to an address that you know does not exist within the company for which you are contracted to perform the penetration test. Why is he doing this?"
+    },
+    {
+      "id": 487,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What frequency does RFID cards of type Mifare use?"
+    },
+    {
+      "id": 488,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is a Red Box?"
+    },
+    {
+      "id": 489,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What binary coding is most commonly used for email purposes?"
+    },
+    {
+      "id": 490,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following techniques is NOT used for enumerating users?"
+    },
+    {
+      "id": 492,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "On a solaris system what does 'showrev -p' return?"
+    },
+    {
+      "id": 493,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Several of your co-workers are having a discussion about the etc/passwd file. They are at odds over what types of encryption are used to secure Linux passwords. Which of the following is the least likely to be used?"
+    },
+    {
+      "id": 494,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Of the following choices, which one provides the most security for FTP?"
+    },
+    {
+      "id": 495,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does the following PORT command mean, PORT 10,2,0,2,10,10?"
+    },
+    {
+      "id": 496,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the acronym FTP stand for?"
+    },
+    {
+      "id": 498,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have local un-privileged access to the server and access to users' home directories over NFS. NFS is configured with SQUASH_ROOT. Your target is the information inside the following file owned by the bin user.; /etc/target.conf. How will you retrieve the file contents?"
+    },
+    {
+      "id": 499,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You discover a .rhosts file in the home directory of user chris on host tom. The file contains the following line: andrew arthur Which of the following statements is true?"
+    },
+    {
+      "id": 501,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following commands can be used to determine whether an X server is accessible on 172.16.0.1:0.0?"
+    },
+    {
+      "id": 503,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the purpose of port 111?"
+    },
+    {
+      "id": 504,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does the Unix portmapper use by default?"
+    },
+    {
+      "id": 505,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following RPC program numbers represents ttdbserverd?"
+    },
+    {
+      "id": 506,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is true about default credentials on Cisco IOS enterprise devices?"
+    },
+    {
+      "id": 507,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following protocols is a file transfer protocol using SSH?"
+    },
+    {
+      "id": 508,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Of the following choices, what represents the best choice to prevent intrusions on an individual computer?"
+    },
+    {
+      "id": 509,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which Of the following choices, what is the best choice for a device to filter and cache content from web pages?"
+    },
+    {
+      "id": 510,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which is the correct set of network components that need to be available for the Internet-facing network card of a dual-homed IIS Web server running on Windows 2000?"
+    },
+    {
+      "id": 511,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following services is not required to run a Windows server solely configured to run IIS and publish a Web site?"
+    },
+    {
+      "id": 512,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following vulnerabilities allows an attacker to take control of an IIS webserver from the Internet through a firewall?"
+    },
+    {
+      "id": 513,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have successfully run an exploit against an IIS4 server. Which of the following is the default privilege you will have within the command shell that you have spawned?"
+    },
+    {
+      "id": 514,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have successfully run an exploit against an IIS6 server. Which of the following default privileges will you have within the command shell that you have spawned?"
+    },
+    {
+      "id": 518,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "When the response to a web request includes the following response, which of the web technologies listed below is most likely to be in use? Set-Cookie: ARPT=ITOUQOwebserver1CKUQW"
+    },
+    {
+      "id": 522,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is NOT an example of an HTTP Web Verb?"
+    },
+    {
+      "id": 524,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following software products is not used to defend against buffer overflows?"
+    },
+    {
+      "id": 526,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following best describes passive information gathering?"
+    },
+    {
+      "id": 528,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "You have been tasked with examining the web pages of a target site. You have grown tired of looking at each online. Which of the following offers a more efficient way of performing this task?"
+    },
+    {
+      "id": 529,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You would like to find out more information about a website from a company based in France. Which of the following is a good starting point?"
+    },
+    {
+      "id": 530,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Placing the following into the input field of a web-based application would be an example of what type of attack, '+or+1%3D1+UNION+SELECT+'---'%7C%7C+banner+FROM+v$version— ?"
+    },
+    {
+      "id": 531,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which part of the following SQL Server password hash is the salt value, 0x01008444930543174C59CC918D34B6A12C9CC9E?"
+    },
+    {
+      "id": 532,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How many characters is the output of an MD5sum?"
+    },
+    {
+      "id": 534,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is the best example of a strong two-factor authentication?"
+    },
+    {
+      "id": 535,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following vulnerabilities can be associated with Password Autocomplete being enabled on a web page visible from the Internet?"
+    },
+    {
+      "id": 537,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What type of attack does the following describe 'poisoning a proxy server's cache with malicious content, in order to compromise other users who access the application via the proxy'?"
+    },
+    {
+      "id": 538,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How would Bob prove to Alice that he is the original creator of a document?"
+    },
+    {
+      "id": 539,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Of the following choices, what is the best way to protect the confidentiality of data?"
+    },
+    {
+      "id": 541,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You discovered the following in the logs: 192.186.13.100/myserver.aspx..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255C..%255..c:\\winnt\\system32\\cmd.exe%/c:dir What is the hacker attempting to do?"
+    },
+    {
+      "id": 542,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What command allows code execution on MSSQL?"
+    },
+    {
+      "id": 543,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which is the default port for MySQL?"
+    },
+    {
+      "id": 544,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the account SYS in Oracle 10?"
+    },
+    {
+      "id": 545,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the account SYS in Oracle 9?"
+    },
+    {
+      "id": 546,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the Oracle account DBSNMP?"
+    },
+    {
+      "id": 547,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the SYS user on Oracle 10g?"
+    },
+    {
+      "id": 548,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the default password for the SYSTEM user on Oracle 9i?"
+    },
+    {
+      "id": 549,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT a default Oracle username/password (any version of oracle)?"
+    },
+    {
+      "id": 550,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT the default port number of a well-known database?"
+    },
+    {
+      "id": 551,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You have created an image for a database server that you plan to deploy to five physical servers. At the last minute, management decides to deploy these as virtual servers. What additional security steps do you need to take with these virtual images before deploying them?"
+    },
+    {
+      "id": 552,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which company originally came up with the concept of the 'Kill Chain'?"
+    },
+    {
+      "id": 553,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You are on penetration test, and are presented a KIOSK. Which tool will you use?"
+    },
+    {
+      "id": 554,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What form of antivirus scan looks at the beginning and end of executable files for known virus signatures?"
+    },
+    {
+      "id": 555,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What type of virus scanning examines computer files for irregular or unusual instructions?"
+    },
+    {
+      "id": 557,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What type of malware do users inadvertently install with USB thumb drives?"
+    },
+    {
+      "id": 558,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following are NOT true about the Sasser worm?"
+    },
+    {
+      "id": 559,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following describes programs that can run independently, travel from system to system, and disrupt computer communications?"
+    },
+    {
+      "id": 560,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following is a self-replicating computer program that sends copies of itself to other computers on a network without any user intervention?"
+    },
+    {
+      "id": 561,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following malware exploits a cross-site scripting vulnerability and was developed to propagate across the MySpace social-networking site?"
+    },
+    {
+      "id": 562,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following registry keys would malware add/modify to maintain persistence?"
+    },
+    {
+      "id": 563,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following terms best describes malware?"
+    },
+    {
+      "id": 564,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following Trojans uses port 6666?"
+    },
+    {
+      "id": 565,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You have become concerned that one of your workstations might be infected with a malicious program. Which of the following netstat switches would be the best to use?"
+    },
+    {
+      "id": 566,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What is the maximum number of characters in an SMS?"
+    },
+    {
+      "id": 567,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Where are personal files stored on an Apple IOS device?"
+    },
+    {
+      "id": 568,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following is an exploit framework for Android?"
+    },
+    {
+      "id": 569,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following is NOT a Mobile OS?"
+    },
+    {
+      "id": 570,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following tools allows communication with an emulated Android device?"
+    },
+    {
+      "id": 571,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Because of findings discovered during a penetration test, you have been asked to investigate biometric authentication devices. Which of the following would represent the best system to install?"
+    },
+    {
+      "id": 572,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "During a physical assessment of an organization, you noticed that there is only an old dilapidated wood fence around the organization's R&D facility. As this building is a key asset, what height chain-link fence should you recommend be installed to deter a determined intruder?"
+    },
+    {
+      "id": 573,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Locks are considered what type of control?"
+    },
+    {
+      "id": 574,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which kind of lock includes a keypad that can be used to control access into areas?"
+    },
+    {
+      "id": 575,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following is one of the primary ways that people can get past controlled doors?"
+    },
+    {
+      "id": 576,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which type of lock would be considered the easiest to pick?"
+    },
+    {
+      "id": 577,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You were able to log on to a user's computer and plant a keystroke logger after you saw the user get up and walk away without logging out or turning off his computer. When preparing your final report, what should you recommend to the client as the best defence to prevent this from happening?"
+    },
+    {
+      "id": 578,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "You were successful in your dumpster diving raids against the target organization, and you uncovered sensitive information. In your final report, what is the best solution you can recommend to prevent this kind of attack?"
+    },
+    {
+      "id": 579,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would be the result of the following port mathematics operation? (NB: In port mathematics, one should substitute the port number for each service, calculate the answer using standard base-10 arithmetic, then convert the answer back to a common TCP or UDP port name.) Netbios-ssn + ssh = ?"
+    },
+    {
+      "id": 580,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would be the result of the following port mathematics operation? (NB: In port mathematics, one should substitute the port number for each service, calculate the answer using standard base-10 arithmetic, then convert the answer back to a common TCP or UDP port name.) Oracle-tns - Kerberos = ?"
+    },
+    {
+      "id": 581,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What would be the result of the following port mathematics operation? (NB: In port mathematics, one should substitute the port number for each service, calculate the answer using standard base-10 arithmetic, then convert the answer back to a common TCP or UDP port name.) http / ftp-data + ftp = ?"
+    },
+    {
+      "id": 582,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following best describes the principle of defence in-depth?"
+    },
+    {
+      "id": 583,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Out of the following which is NOT one of the items commonly accepted as a core security property?"
+    },
+    {
+      "id": 584,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following pairs of organisations measure the risk of vulnerabilities?"
+    },
+    {
+      "id": 585,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Attackers sent a targeted e-mail attack to the president of a company. What best describes this attack?"
+    },
+    {
+      "id": 586,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Of the following choices, what best represents an attack against specific employees of a company?"
+    },
+    {
+      "id": 587,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Phishing differs from adware and spyware because?"
+    },
+    {
+      "id": 588,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "You recently used social engineering to talk your way into a secure facility. Which of the following should you recommend in your ethical hacking report as the best defence to prevent this from happening in the future?"
+    },
+    {
+      "id": 589,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "ArcServe 5.11 is vulnerable to which of the following attacks?"
+    },
+    {
+      "id": 590,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In which version of Adobe Reader did they introduce Sandboxing?"
+    },
+    {
+      "id": 591,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "RealVNC 4.1.1 is vulnerable to which of the following attacks?"
+    },
+    {
+      "id": 592,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What functionality did Windows x64 introduce, as a means of mitigating against SSDT rootkit exploits?"
+    },
+    {
+      "id": 593,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What functionality does Adobe natively allow, that is vulnerable to being exploited?"
+    },
+    {
+      "id": 594,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "A user plugged a cable into two RJ-45 wall jacks connected to unused ports on a switch. In a short period, this disrupted the overall network performance. What should you do to protect against this problem in the future?"
+    },
+    {
+      "id": 595,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In an attack simulation, you manage to connect your laptop to a switch that enforces Network Access Control (NAC). Which of the following is the LEAST LIKELY to happen?"
+    },
+    {
+      "id": 596,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is SS7?"
+    },
+    {
+      "id": 597,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following best describes a phreaker?"
+    },
+    {
+      "id": 598,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "A process running on a system has system-level access to the operating system kernel. Investigation shows that it has modified system files. What best describes this behavior?"
+    },
+    {
+      "id": 599,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "An organisation wants to ensure that it does not use compromised certificates. What should it check?"
+    },
+    {
+      "id": 600,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "During a penetration test, you found several systems connected to the Internet that have a low security level, which allows for the free recording of cookies. This creates a risk because cookies locally store which of the following?"
+    },
+    {
+      "id": 601,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "In the mobile alphabet (ITU E 1.161) how would you type 'elite'?"
+    },
+    {
+      "id": 602,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Rosa would like to make sure that the digital photos and art she produces are recognizable in case her work is stolen and placed on another website. What should she do?"
+    },
+    {
+      "id": 604,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What does a Firewire Port allow you to perform against an OS?"
+    },
+    {
+      "id": 605,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is an any-cast address?"
+    },
+    {
+      "id": 606,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What is an OLE exploit?"
+    },
+    {
+      "id": 607,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is SCTP?"
+    },
+    {
+      "id": 609,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What type of attack starts on a virtual system but can affect the physical host?"
+    },
+    {
+      "id": 610,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What will protect against a SYN attack?"
+    },
+    {
+      "id": 613,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following defines the acronym CVE, as in cve.mitre.org?"
+    },
+    {
+      "id": 614,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which of the following is the dialing sequence to enable a GSM modem?"
+    },
+    {
+      "id": 615,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is used to verify the proof of identity?"
+    },
+    {
+      "id": 616,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which one of the following AAA protocols uses multiple challenges and responses?"
+    },
+    {
+      "id": 617,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "Which one of the following is the default NXP Mifare A Key?"
+    },
+    {
+      "id": 618,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Why is EIP important?"
+    },
+    {
+      "id": 619,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You are on a penetration test, and are given an ERP environment, which tool will be the most use?"
+    },
+    {
+      "id": 621,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "You're planning on planting a sniffing program on a Linux system but are worried that it will be discovered when someone runs an ifconfig -a. Which of the following is your best option for hiding the tool?"
+    },
+    {
+      "id": 623,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is a valid RIR (Regional Internet Registry)?"
+    },
+    {
+      "id": 624,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which threat is your web application susceptible to if a user can pass specially crafted input that invokes semantic control codes?"
+    },
+    {
+      "id": 625,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which one of these is NOT part of the OWASP top ten Web App Vulnerabilities?"
+    },
+    {
+      "id": 626,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT a supported search parameter for use in 'Google Hacking'?"
+    },
+    {
+      "id": 627,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the abbreviation 'NNTP' stand for?"
+    },
+    {
+      "id": 629,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "The active-status of which three ports indicate the use of IPSec on a network?"
+    },
+    {
+      "id": 630,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following is NOT a valid SIP request method?"
+    },
+    {
+      "id": 631,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which of the following is NOT a recognised Windows Patch Management Strategy?"
+    },
+    {
+      "id": 632,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Running services on non-default ports is based on which one of these principles?"
+    },
+    {
+      "id": 633,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "X11, or the X Window System version 11, was developed at which well-known technology organisation?"
+    },
+    {
+      "id": 634,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which of the following organisations hosts the CVE (Common Vulnerabilities and Exposures) database?"
+    },
+    {
+      "id": 635,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "The long-awaited HTML5 introduced which of the following new tags?"
+    },
+    {
+      "id": 638,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is Egress filtering (in terms of a network)?"
+    },
+    {
+      "id": 639,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which Nmap command can allow you to perform an 'Idle Zombie Scan' and what is the effect?"
+    },
+    {
+      "id": 640,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which statement is true regarding IPSec filters when compared to TCP/IP filters?"
+    },
+    {
+      "id": 641,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which statement regarding Authorisation and Authentication is true?"
+    },
+    {
+      "id": 642,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is a valid example of Code Injection?"
+    },
+    {
+      "id": 643,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What frequencies does 802.11 run on?"
+    },
+    {
+      "id": 644,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does a wireless sniffer need to be capable of?"
+    },
+    {
+      "id": 645,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "List 4 tools that can be used for wireless testing?"
+    },
+    {
+      "id": 647,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What most increases the time needed to brute-force a password offline?"
+    },
+    {
+      "id": 648,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "List features of WEP (802.11 a/b)?"
+    },
+    {
+      "id": 650,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "List features of WPA/WPA2 (802.11i)?"
+    },
+    {
+      "id": 651,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "List features of EAP/LEAP/PEAP (PEAP developed by RSA, Microsoft, and Cisco)?"
+    },
+    {
+      "id": 652,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is PKI?"
+    },
+    {
+      "id": 653,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does the following command do: net group 'Domain Computers' /domain?"
+    },
+    {
+      "id": 659,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the following command do: nbtstat -A or -n?"
+    },
+    {
+      "id": 661,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the following command do: net use \\\\IP\\IPC$ \"\" /user:\"\"?"
+    },
+    {
+      "id": 662,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the following command do: rpcclient -U \"\"?"
+    },
+    {
+      "id": 663,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does the following command do: Lookupsids?"
+    },
+    {
+      "id": 664,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Where is the system registry file stored in Windows?"
+    },
+    {
+      "id": 665,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does RID stand for?"
+    },
+    {
+      "id": 666,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does SID stand for?"
+    },
+    {
+      "id": 667,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What RID is given to an Administrator?"
+    },
+    {
+      "id": 668,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What RID is given to a Guest?"
+    },
+    {
+      "id": 669,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What RID is given to a User?"
+    },
+    {
+      "id": 670,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "List some common SMB Shares?"
+    },
+    {
+      "id": 673,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What are the default SMB Admin Shares?"
+    },
+    {
+      "id": 674,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is NNTP?"
+    },
+    {
+      "id": 675,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What are the weaknesses of Telnet?"
+    },
+    {
+      "id": 676,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What can Gopher be used for?"
+    },
+    {
+      "id": 680,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does SIP stand for?"
+    },
+    {
+      "id": 682,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What are the differences between SIP 5060 and SIP 5061?"
+    },
+    {
+      "id": 683,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is SIP used for?"
+    },
+    {
+      "id": 688,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the SIP code 302?"
+    },
+    {
+      "id": 693,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does the /lib dir contain?"
+    },
+    {
+      "id": 703,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What can rwho do?"
+    },
+    {
+      "id": 704,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What can rusers do?"
+    },
+    {
+      "id": 705,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What can finger be used for?"
+    },
+    {
+      "id": 706,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "If a Hash begins with $1$ what algo has been used?"
+    },
+    {
+      "id": 715,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "List all 5 of the Root Keys (Windows Registry)?"
+    },
+    {
+      "id": 716,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does whois use?"
+    },
+    {
+      "id": 717,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does Terminal Access Controller Access-Control System (TACACS) use?"
+    },
+    {
+      "id": 718,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does DNS use?"
+    },
+    {
+      "id": 721,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does finger use?"
+    },
+    {
+      "id": 724,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does rpc use?"
+    },
+    {
+      "id": 725,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What port does ident use?"
+    },
+    {
+      "id": 726,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What port does Network News Transfer Protocol (NNTP) use?"
+    },
+    {
+      "id": 727,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does Network Time Protocol (NTP) use?"
+    },
+    {
+      "id": 728,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does NetBIOS (NBT) use?"
+    },
+    {
+      "id": 730,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does Simple Network Management Protocol (SNMP) use?"
+    },
+    {
+      "id": 735,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What port does Internet Message Access Protocol (IMAPS) use?"
+    },
+    {
+      "id": 736,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What port does OpenVPN use?"
+    },
+    {
+      "id": 737,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What port does MSSQL use?"
+    },
+    {
+      "id": 738,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What port does Oracle use?"
+    },
+    {
+      "id": 739,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What port does L2TP use?"
+    },
+    {
+      "id": 742,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What port does Squid Proxy use?"
+    },
+    {
+      "id": 743,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What port does MySQL use?"
+    },
+    {
+      "id": 744,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What port does rwhois use?"
+    },
+    {
+      "id": 747,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "How does the backup router detect if the active router is down? (FHRP)"
+    },
+    {
+      "id": 749,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is DES (Bit key size, block size)?"
+    },
+    {
+      "id": 750,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is 3DES (Bit key size, block size)?"
+    },
+    {
+      "id": 751,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is Advanced Encryption Standard (AES) (Block size, Key size)?"
+    },
+    {
+      "id": 752,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is a Block Cipher?"
+    },
+    {
+      "id": 754,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is the key size for Rivest Cipher 4 (RC4)?"
+    },
+    {
+      "id": 755,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "State some Asymmetric algorithms?"
+    },
+    {
+      "id": 756,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is Hash-based message authentication code (HMAC)?"
+    },
+    {
+      "id": 757,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What is PGP?"
+    },
+    {
+      "id": 758,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What two protocols does IPsec use?"
+    },
+    {
+      "id": 759,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is AH?"
+    },
+    {
+      "id": 760,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is ESP?"
+    },
+    {
+      "id": 761,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is Internet Key Exchange?"
+    },
+    {
+      "id": 762,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does IKE Phase 1 do?"
+    },
+    {
+      "id": 764,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What does IKE Phase 2 do?"
+    },
+    {
+      "id": 765,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is IPsec vulnerable to?"
+    },
+    {
+      "id": 766,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does IPv6 use instead of ARP?"
+    },
+    {
+      "id": 767,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does TCP stand for?"
+    },
+    {
+      "id": 768,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does UDP stand for?"
+    },
+    {
+      "id": 769,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does SCTP stand for?"
+    },
+    {
+      "id": 772,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What protocols use TCP?"
+    },
+    {
+      "id": 773,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What protocols use UDP?"
+    },
+    {
+      "id": 774,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does ICMP stand for?"
+    },
+    {
+      "id": 775,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is ICMP used for?"
+    },
+    {
+      "id": 776,
+      "reason": "Outside CPSA A-J; unsupported or unnecessary extras removed from active practice",
+      "stem": "What attacks are associated with ICMP?"
+    },
+    {
+      "id": 777,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is MAC?"
+    },
+    {
+      "id": 778,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is ARP?"
+    },
+    {
+      "id": 780,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What is a token ring?"
+    },
+    {
+      "id": 781,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does FHRP stand for?"
+    },
+    {
+      "id": 782,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does FHRP do?"
+    },
+    {
+      "id": 783,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the primary purpose of a 'Rules of Engagement' (RoE) document in a penetration test?"
+    },
+    {
+      "id": 784,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the key difference between black box and white box testing?"
+    },
+    {
+      "id": 785,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the main benefit of penetration testing to a client?"
+    },
+    {
+      "id": 786,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which UK law primarily criminalises unauthorised access to computer material?"
+    },
+    {
+      "id": 787,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Section 3A of the Computer Misuse Act 1990 (added by the Police and Justice Act 2006) created an offence relating to what?"
+    },
+    {
+      "id": 788,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Before any testing begins, what is essential to avoid breaching the Computer Misuse Act 1990?"
+    },
+    {
+      "id": 789,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which Computer Misuse Act 1990 section covers unauthorised acts that impair the operation of a computer (e.g. DoS)?"
+    },
+    {
+      "id": 790,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is accurate scoping important before an engagement?"
+    },
+    {
+      "id": 791,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does 'inherent risk' mean?"
+    },
+    {
+      "id": 792,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is 'residual risk'?"
+    },
+    {
+      "id": 793,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which is a key risk that the act of penetration testing can itself introduce?"
+    },
+    {
+      "id": 794,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which list correctly names the four common risk treatment options?"
+    },
+    {
+      "id": 795,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "How should a tester plan for potential DoS conditions during an engagement?"
+    },
+    {
+      "id": 796,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What should the executive summary of a penetration test report contain?"
+    },
+    {
+      "id": 797,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is accurate, structured record keeping important during an engagement?"
+    },
+    {
+      "id": 799,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "If, during an authorised test, you discover clear evidence of a pre-existing compromise by a third party, what is the correct action?"
+    },
+    {
+      "id": 800,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "During a test you access a database of staff personal data. What is the appropriate handling?"
+    },
+    {
+      "id": 801,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What typically happens during the project closure / debrief phase?"
+    },
+    {
+      "id": 802,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which type of information found in HTML source is most useful to an attacker?"
+    },
+    {
+      "id": 803,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A login form returns a different message for 'invalid username' versus 'invalid password'. Why is this a weakness?"
+    },
+    {
+      "id": 804,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Multi-factor authentication is defined by combining factors from which categories?"
+    },
+    {
+      "id": 806,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the difference between whitelisting and blacklisting for input validation?"
+    },
+    {
+      "id": 807,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is client-side input validation alone insufficient?"
+    },
+    {
+      "id": 808,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is a detailed stack trace shown to end users a security problem?"
+    },
+    {
+      "id": 809,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is stored (persistent) XSS generally more dangerous than reflected XSS?"
+    },
+    {
+      "id": 810,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which best describes the potential impact of SQL injection?"
+    },
+    {
+      "id": 811,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "LDAP injection manipulates what?"
+    },
+    {
+      "id": 812,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the impact of a successful Cross-Site Request Forgery (CSRF) attack?"
+    },
+    {
+      "id": 813,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Session fixation occurs when an application does what?"
+    },
+    {
+      "id": 814,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which set of cookie attributes best protects a session cookie?"
+    },
+    {
+      "id": 815,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What property makes a session token resistant to guessing?"
+    },
+    {
+      "id": 816,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Base64 should be understood as which of the following?"
+    },
+    {
+      "id": 820,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "What can a source-code review identify more reliably than black-box testing?"
+    },
+    {
+      "id": 821,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What can a successful DNS zone transfer (AXFR) give an attacker?"
+    },
+    {
+      "id": 823,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which DNS record identifies the mail servers responsible for a domain?"
+    },
+    {
+      "id": 825,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Historically, an HINFO DNS record could leak what to an attacker?"
+    },
+    {
+      "id": 826,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A WHOIS query can reveal which of the following?"
+    },
+    {
+      "id": 828,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What characterises passive information gathering?"
+    },
+    {
+      "id": 829,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A classic first test string to detect SQL injection in a parameter is?"
+    },
+    {
+      "id": 830,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What characterises blind SQL injection?"
+    },
+    {
+      "id": 831,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In SQL injection, the UNION SELECT technique is used to?"
+    },
+    {
+      "id": 832,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A web spidering/crawling tool is used to?"
+    },
+    {
+      "id": 834,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "An intercepting proxy such as Burp Suite or OWASP ZAP lets a tester do what?"
+    },
+    {
+      "id": 836,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the correct order of the TCP three-way handshake?"
+    },
+    {
+      "id": 837,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "In an nmap TCP SYN scan, which response indicates an OPEN port?"
+    },
+    {
+      "id": 838,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A TCP RST (reset) in response to a SYN indicates the port is?"
+    },
+    {
+      "id": 839,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the main purpose of egress filtering?"
+    },
+    {
+      "id": 840,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which of the following is an asymmetric (public-key) algorithm?"
+    },
+    {
+      "id": 841,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the block size of the AES cipher?"
+    },
+    {
+      "id": 842,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the effective key length of single DES?"
+    },
+    {
+      "id": 843,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the output (digest) length of MD5?"
+    },
+    {
+      "id": 844,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the output (digest) length of SHA-1?"
+    },
+    {
+      "id": 845,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does HMAC provide?"
+    },
+    {
+      "id": 846,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the fundamental difference between encoding and encryption?"
+    },
+    {
+      "id": 848,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which ICMP types correspond to an echo request and echo reply (ping)?"
+    },
+    {
+      "id": 849,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which set are all RFC 1918 private address ranges?"
+    },
+    {
+      "id": 850,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A default TTL of 128 in a captured packet most likely indicates which OS family?"
+    },
+    {
+      "id": 851,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The CIA triad of core security properties stands for?"
+    },
+    {
+      "id": 852,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What does the 'firewalking' technique attempt to determine?"
+    },
+    {
+      "id": 853,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the common default SNMP read-only community string?"
+    },
+    {
+      "id": 855,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "ARP spoofing/poisoning on a LAN primarily enables what?"
+    },
+    {
+      "id": 857,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is IKE aggressive mode with a pre-shared key considered weak?"
+    },
+    {
+      "id": 858,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is Telnet unsuitable for remote device management?"
+    },
+    {
+      "id": 859,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is WEP fundamentally insecure?"
+    },
+    {
+      "id": 860,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which cipher does WPA2 (CCMP) use?"
+    },
+    {
+      "id": 862,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What do HSRP, VRRP and FHRP provide?"
+    },
+    {
+      "id": 863,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which protocol is central to most VoIP call setup and is examined in the CPSA syllabus?"
+    },
+    {
+      "id": 864,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does an SMB 'null session' allow on a vulnerable/legacy Windows host?"
+    },
+    {
+      "id": 865,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why are LM (LANMAN) hashes weak?"
+    },
+    {
+      "id": 867,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Kerberoasting targets which accounts?"
+    },
+    {
+      "id": 868,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which tool is commonly used to extract plaintext credentials and hashes from LSASS memory?"
+    },
+    {
+      "id": 869,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "On a domain controller, the Active Directory database (including password hashes) is stored in which file?"
+    },
+    {
+      "id": 870,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "FSMO roles in Active Directory refer to?"
+    },
+    {
+      "id": 872,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "NTLMv2 improves on NTLMv1 mainly by?"
+    },
+    {
+      "id": 873,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the security significance of the SUID bit on a root-owned executable?"
+    },
+    {
+      "id": 874,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the NFS 'root squash' option do?"
+    },
+    {
+      "id": 875,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The SMTP VRFY and EXPN commands can be abused to do what?"
+    },
+    {
+      "id": 876,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The finger service can reveal which information to a remote attacker?"
+    },
+    {
+      "id": 878,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the main risk of an anonymous FTP server that also allows write access?"
+    },
+    {
+      "id": 880,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why are the Berkeley r* services (rlogin, rsh) insecure?"
+    },
+    {
+      "id": 881,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which SSH protocol version should be disabled due to known weaknesses?"
+    },
+    {
+      "id": 883,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the HTTP status code 302 indicate?"
+    },
+    {
+      "id": 884,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which HTTP method, if enabled unnecessarily, can let an attacker upload files to the server?"
+    },
+    {
+      "id": 887,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The X-Frame-Options response header helps protect against which attack?"
+    },
+    {
+      "id": 888,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What are the default ports for HTTP and HTTPS respectively?"
+    },
+    {
+      "id": 889,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In a classic three-tier web architecture, what are the three logical layers?"
+    },
+    {
+      "id": 890,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "SOAP web service messages are formatted using which markup language?"
+    },
+    {
+      "id": 891,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is a 'thick' (fat) client compared with a thin client?"
+    },
+    {
+      "id": 892,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the default TCP port for Microsoft SQL Server?"
+    },
+    {
+      "id": 893,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the default TCP port for the Oracle TNS listener?"
+    },
+    {
+      "id": 894,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the default TCP port for MySQL?"
+    },
+    {
+      "id": 895,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does the xp_cmdshell extended stored procedure allow in Microsoft SQL Server?"
+    },
+    {
+      "id": 897,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The 'sa' login in Microsoft SQL Server is?"
+    },
+    {
+      "id": 898,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Within MS SQL injection, which value is commonly read to fingerprint the database version?"
+    },
+    {
+      "id": 899,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the effective key strength of 3DES (Triple DES) in its common keying mode?"
+    },
+    {
+      "id": 900,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is ECB (Electronic Codebook) mode considered insecure for encrypting structured data?"
+    },
+    {
+      "id": 901,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the primary security purpose of adding a salt before hashing a password?"
+    },
+    {
+      "id": 902,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Diffie-Hellman is correctly described as which of the following?"
+    },
+    {
+      "id": 904,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the key difference between a hash function and encryption?"
+    },
+    {
+      "id": 905,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which property of a cryptographic hash function is violated when two different inputs produce the same digest?"
+    },
+    {
+      "id": 906,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which statement about SSL/TLS is correct?"
+    },
+    {
+      "id": 907,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "An attacker captures a password hash and looks it up in a precomputed table of hash-to-plaintext mappings. What is this technique called?"
+    },
+    {
+      "id": 908,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does a Message Authentication Code (MAC), such as HMAC, provide that a plain hash does not?"
+    },
+    {
+      "id": 910,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "What is the main purpose of an nmap ACK scan (-sA)?"
+    },
+    {
+      "id": 911,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which ICMP message type is an Echo Request (used by ping)?"
+    },
+    {
+      "id": 912,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Passive OS fingerprinting (e.g. with p0f) differs from active fingerprinting because it does what?"
+    },
+    {
+      "id": 913,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In a traceroute, how is the path between hops discovered?"
+    },
+    {
+      "id": 914,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "You connect to an open TCP port and it returns: '220 ProFTPD 1.3.5 Server'. What technique are you using and what does it reveal?"
+    },
+    {
+      "id": 916,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "A firewall permits all outbound traffic but tightly filters inbound. Which technique does this most directly enable for an attacker who has code execution on an internal host?"
+    },
+    {
+      "id": 917,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why is the LM (LANMAN) hash weak even for a long password?"
+    },
+    {
+      "id": 918,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "In Kerberos, what does a client first obtain from the Key Distribution Center after authenticating?"
+    },
+    {
+      "id": 919,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Kerberoasting recovers service-account passwords by doing what?"
+    },
+    {
+      "id": 920,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which legacy Windows technique lets an attacker enumerate users and shares over an anonymous SMB connection?"
+    },
+    {
+      "id": 921,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What makes a pass-the-hash attack possible against NTLM authentication?"
+    },
+    {
+      "id": 923,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "After compromising a Windows host, a tester dumps hashes from LSASS memory. What does this most directly enable?"
+    },
+    {
+      "id": 924,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "An organisation uses WSUS over plain HTTP. Why is this a security concern for a tester to note?"
+    },
+    {
+      "id": 925,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "Which HTTP status code specifically means the request method is not allowed for that resource?"
+    },
+    {
+      "id": 928,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What distinguishes stored (persistent) XSS from reflected XSS?"
+    },
+    {
+      "id": 929,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "A web server responds with the header 'Server: Microsoft-IIS/10.0'. What is the immediate value of this to a tester?"
+    },
+    {
+      "id": 930,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Why should a web application issue a new session identifier immediately after a user logs in?"
+    },
+    {
+      "id": 931,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Which HTTP request header tells the server which site a request originated from and is often checked as a CSRF defence?"
+    },
+    {
+      "id": 932,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "WEP's core cryptographic weakness stems from which design flaw?"
+    },
+    {
+      "id": 933,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does WPA2-Enterprise add compared with WPA2-Personal (PSK)?"
+    },
+    {
+      "id": 935,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In an Evil Twin attack, what is the attacker doing?"
+    },
+    {
+      "id": 936,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which encryption protocol did WPA introduce as an interim upgrade over WEP, still using the RC4 cipher?"
+    },
+    {
+      "id": 937,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What capability must a wireless adapter support to capture all 802.11 frames in the air, including those not addressed to it?"
+    },
+    {
+      "id": 938,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which DNS record type defines the authoritative name servers for a zone?"
+    },
+    {
+      "id": 939,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What information does the SOA (Start of Authority) record provide?"
+    },
+    {
+      "id": 941,
+      "reason": "Second-pass option review: alternate correct answer, weak distractors, unsupported precision, or already covered by a stronger scenario",
+      "stem": "During WHOIS enumeration, why is the registrant or technical contact email valuable to an attacker?"
+    },
+    {
+      "id": 943,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Which command lists the NFS exports a server is offering to clients?"
+    },
+    {
+      "id": 944,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "The SMTP VRFY command is abused during enumeration to do what?"
+    },
+    {
+      "id": 945,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the role of the portmapper / rpcbind service (TCP/UDP 111) on a Unix host?"
+    },
+    {
+      "id": 946,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "In the world-writable permission string drwxrwxrwx, why is the trailing 'w' for 'other' a concern on a sensitive directory?"
+    },
+    {
+      "id": 947,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the specific risk of an anonymous FTP server that also permits uploads?"
+    },
+    {
+      "id": 948,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What does a DHCP starvation attack achieve, and what often follows it?"
+    },
+    {
+      "id": 949,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "Why is Cisco Discovery Protocol (CDP) information useful to an attacker on a switched network?"
+    },
+    {
+      "id": 950,
+      "reason": "Ambiguous, factually unsupported, outdated without useful context, or low-value trivia; replaced by clearer practice",
+      "stem": "In an STP (Spanning Tree) manipulation attack, what does the attacker do by sending superior BPDUs?"
+    },
+    {
+      "id": 952,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "Although the CREST syllabus references the Data Protection Act 1998, which legislation now governs personal data handling in the UK, and why does it matter to a tester?"
+    },
+    {
+      "id": 953,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "During scoping, why must you confirm whether systems are hosted by a third party (e.g. a cloud provider)?"
+    },
+    {
+      "id": 954,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the most appropriate way to handle a test that risks causing a denial of service to a fragile production system?"
+    },
+    {
+      "id": 955,
+      "reason": "Repeated concept with no material additional discrimination; consolidate into representative or scenario",
+      "stem": "What is the main difference between a vulnerability assessment and a penetration test?"
+    }
+  ],
+  "copyedited_ids": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    16,
+    23,
+    26,
+    28,
+    31,
+    33,
+    34,
+    45,
+    47,
+    48,
+    49,
+    52,
+    53,
+    54,
+    55,
+    56,
+    59,
+    60,
+    63,
+    66,
+    68,
+    73,
+    74,
+    78,
+    82,
+    85,
+    92,
+    98,
+    99,
+    106,
+    107,
+    108,
+    111,
+    113,
+    114,
+    116,
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    152,
+    160,
+    161,
+    162,
+    166,
+    206,
+    226,
+    230,
+    232,
+    235,
+    239,
+    241,
+    245,
+    247,
+    248,
+    254,
+    257,
+    258,
+    273,
+    278,
+    281,
+    284,
+    293,
+    296,
+    300,
+    302,
+    303,
+    308,
+    309,
+    312,
+    333,
+    337,
+    338,
+    344,
+    345,
+    357,
+    358,
+    367,
+    384,
+    385,
+    396,
+    401,
+    404,
+    408,
+    409,
+    410,
+    420,
+    424,
+    440,
+    451,
+    458,
+    462,
+    463,
+    478,
+    497,
+    502,
+    515,
+    517,
+    519,
+    521,
+    523,
+    525,
+    527,
+    540,
+    603,
+    620,
+    628,
+    636,
+    637,
+    713,
+    714,
+    822,
+    824,
+    847,
+    856,
+    886,
+    903,
+    922,
+    927
+  ],
+  "category_counts": {
+    "D": 76,
+    "B": 126,
+    "F": 59,
+    "I": 18,
+    "E": 51,
+    "A": 20,
+    "J": 19,
+    "C": 25,
+    "G": 34,
+    "H": 16
+  },
+  "original_sha256": "5384931cc33e091d40b7d0bb313d0a224bb4cf9b5c20a86261b2424cccb9a1f4",
+  "methodology": "Editorial screening of all stems/answers; targeted factual corrections; remove repeated recall and unsupported trivia; add original scenarios. Retained foundations are not an independently source-verified official exam bank."
+}

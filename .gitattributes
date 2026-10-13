@@ -1,0 +1,7 @@
+CPSA_Trainer.html text eol=lf
+README.md text eol=lf
+CPSA_Trainer_support/*.py text eol=lf
+CPSA_Trainer_support/*.cjs text eol=lf
+CPSA_Trainer_support/*.json text eol=lf
+CPSA_Trainer_support/*.md text eol=lf
+CPSA_Trainer_support/CPSA_Trainer.original-2026-10-14.html -text
