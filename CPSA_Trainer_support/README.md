@@ -29,6 +29,24 @@ Mock exams use 120 questions, 120 minutes, and an exact 60% pass comparison. The
 published weighting. No pass prediction is made. Flashcard self-ratings are separate
 from scored answers. Existing historical counters may contain old self-ratings.
 
+## Responsive UI and recovery
+
+`ui_features.js` and `ui_styles.css` are embedded into the single HTML by the builder.
+They provide the mobile mode picker, 44px tap targets, fixed study controls, a
+collapsed exam map, keyboard controls, remembered practice length, stable bank
+choices, and better search paging. No external runtime asset files are required.
+
+Live sessions are saved separately in local storage. The dashboard offers recovery
+when a session is paused, refreshed, or left for another mode. The original exam
+deadline is preserved. A recovered expired exam is scored once; practice recovery
+does not record answered items again. Starting a new session prompts before
+replacing the saved one. Recovery does not synchronize across browsers/devices.
+
+Run `node ./verify_ui.cjs` for layout and recovery checks. `ui-validation.json`
+records tests at 320/390/768/1024/1440px, keyboard and touch controls, expired exam
+handling, and resume without double scoring. Screenshots use synthetic progress
+and are generated locally rather than committed.
+
 ## Progress preservation
 
 The original browser key `cpsa_trainer_v1` is retained. On migration, its original

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-14",
+  "viewports": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "checks": [
+    "no page overflow across five views",
+    "compact mobile header",
+    "44px tap targets",
+    "focused-answer keyboard shortcuts",
+    "flag/unanswered jumps",
+    "collapsed question navigator",
+    "fixed session actions",
+    "top-of-question navigation",
+    "exam resume with original deadline",
+    "expired exam scored once",
+    "drill resume without double scoring",
+    "remembered session length",
+    "keyboard-accessible topic cards and flashcards",
+    "stable bank option order",
+    "clear search and paging focus",
+    "reduced motion",
+    "dark/light screenshots"
+  ],
+  "runtimeErrors": []
+}

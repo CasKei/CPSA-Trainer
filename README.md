@@ -17,6 +17,10 @@ git clone https://github.com/CasKei/CPSA-Trainer.git
 - **Mock exams:** 120 questions, a two-hour timer, and a 60% pass threshold.
 - **Question bank:** search questions and explanations by topic, syllabus group, or practice type.
 - **Missed-item retries:** repeat the questions you got wrong with shuffled choices.
+- **Mobile controls:** a compact mode picker, larger tap targets, and bottom study actions.
+- **Exam navigator:** a collapsible question map with flagged/unanswered jumps.
+- **Pause and resume:** recover drills, flashcards, and mock exams after refreshing or changing modes. Exam countdowns retain their original deadline.
+
 
 ## Question-bank revision — October 14, 2026
 

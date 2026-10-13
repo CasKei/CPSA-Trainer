@@ -168,6 +168,21 @@ input[type=search]{width:300px}label{font-size:14px}
 button:disabled{opacity:.45;cursor:default}
 @media(max-width:600px){.hb{gap:8px}nav{margin-left:0}.qtext{font-size:18px}input[type=search]{width:100%}.card.row>label{width:100%}}
 </style>''')
+# Embed UI enhancements while preserving the bank and its stable progress keys.
+replace('</style>',(P/'ui_styles.css').read_text(encoding='utf-8')+'\n</style>')
+replace('<div class="toast" id="toast"></div>','<div class="toast" id="toast" role="status"></div><div id="ui-status" class="sr-only" role="status" aria-live="polite"></div>')
+replace('<nav id="nav"></nav>','<nav id="nav" aria-label="Study modes"></nav><select id="modeSwitcher" class="mobile-mode" aria-label="Study mode" onchange="go(this.value)"></select>')
+replace('>End</button>','>Pause</button>')
+replace('${sess.title}', '${esc(sess.title)}')
+replace('${shuffle([q.a,...q.d]).map(o=>', '${bankOptions(q).map(o=>')
+replace('bankPage--;renderBankRows();','bankPageStep(-1);')
+replace('bankPage++;renderBankRows();','bankPageStep(1);')
+start=t.index("document.addEventListener('keydown',e=>{")
+end=t.index("window.addEventListener('beforeunload'",start)
+t=t[:start]+t[end:]
+replace("window.addEventListener('beforeunload',e=>{if(sess&&sess.live){e.preventDefault();e.returnValue='';}});",'')
+replace('renderNav();dashboard();',(P/'ui_features.js').read_text(encoding='utf-8')+'\nrenderNav();dashboard();')
+
 # Refuse to discard later manual edits when rebuilding from these sources.
 state=P/'build-state.json'
 allowed={hashlib.sha256(original.read_bytes()).hexdigest()}
