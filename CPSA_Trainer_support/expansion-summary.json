@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-14",
+  "previous_count": 444,
+  "final_count": 1034,
+  "previous_questions_preserved": 444,
+  "restored": 108,
+  "fresh": 482,
+  "category_counts": {
+    "D": 100,
+    "B": 134,
+    "F": 100,
+    "I": 100,
+    "E": 100,
+    "A": 100,
+    "J": 100,
+    "C": 100,
+    "G": 100,
+    "H": 100
+  },
+  "skill_tags": {
+    "A": {
+      "A4": 21,
+      "untagged-foundation": 6,
+      "A2": 14,
+      "A3": 19,
+      "A1": 10,
+      "A5": 30
+    },
+    "B": {
+      "untagged-foundation": 51,
+      "B11": 29,
+      "B13": 4,
+      "B1": 24,
+      "B4": 3,
+      "B8": 2,
+      "B14": 5,
+      "B12": 6,
+      "B10": 3,
+      "B5": 6,
+      "B9": 1
+    },
+    "C": {
+      "C2": 40,
+      "untagged-foundation": 9,
+      "C1": 15,
+      "C3": 11,
+      "C5": 9,
+      "C4": 5,
+      "C6": 11
+    },
+    "D": {
+      "D4": 6,
+      "untagged-foundation": 33,
+      "D1": 8,
+      "D6": 17,
+      "D5": 8,
+      "D3": 17,
+      "D2": 3,
+      "D7": 7,
+      "B2": 1
+    },
+    "E": {
+      "E1": 13,
+      "E4": 19,
+      "untagged-foundation": 19,
+      "E9": 4,
+      "E3": 13,
+      "B13": 4,
+      "E5": 10,
+      "E2": 7,
+      "E6": 3,
+      "E7": 3,
+      "E8": 5
+    },
+    "F": {
+      "untagged-foundation": 34,
+      "F2": 14,
+      "F1": 7,
+      "F5": 8,
+      "F8": 2,
+      "B14": 5,
+      "F7": 7,
+      "F9": 5,
+      "F6": 4,
+      "F4": 6,
+      "F3": 5,
+      "B13": 3
+    },
+    "G": {
+      "untagged-foundation": 14,
+      "G6": 5,
+      "G9": 5,
+      "G3": 8,
+      "G4": 34,
+      "G2": 6,
+      "G1": 12,
+      "G7": 6,
+      "G5": 8,
+      "G8": 2
+    },
+    "H": {
+      "untagged-foundation": 3,
+      "H5": 14,
+      "H4": 12,
+      "H6": 15,
+      "H8": 4,
+      "H10": 10,
+      "H11": 21,
+      "H12": 6,
+      "H2": 1,
+      "H13": 5,
+      "H9": 9
+    },
+    "I": {
+      "I2": 22,
+      "untagged-foundation": 4,
+      "I4": 20,
+      "I3": 35,
+      "I1": 19
+    },
+    "J": {
+      "J2": 26,
+      "untagged-foundation": 7,
+      "J1": 30,
+      "J3": 37
+    }
+  },
+  "policy": "Preserve distinct learning exercises; balance topics before adaptive selection within topics"
+}

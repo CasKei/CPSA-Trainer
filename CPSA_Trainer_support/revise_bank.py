@@ -549,6 +549,18 @@ for idx,q in STEMS.items():
 
 # Further-reading references match the particular protocol/primitive, not merely the group.
 refs.update({
+ 'wstg':('OWASP: Web Security Testing Guide','https://owasp.org/www-project-web-security-testing-guide/'),
+ 'hpp':('OWASP: HTTP parameter pollution','https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Injection/04-HTTP_Parameter_Pollution'),
+ 'pci':('PCI SSC: card verification values','https://www.pcisecuritystandards.org/faqs/are-merchants-allowed-to-request-card-verification-codes-values-from-cardholders/'),
+ 'odbc':('Microsoft: ODBC overview','https://learn.microsoft.com/en-us/sql/odbc/reference/odbc-overview'),
+ 'access':('Microsoft: Access security','https://support.microsoft.com/en-us/access/split-an-access-database'),
+ 'sqlperm':('Microsoft: database permissions','https://learn.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine'),
+ 'sqlchain':('Microsoft: ownership chains and execution context','https://learn.microsoft.com/en-us/sql/relational-databases/tutorial-ownership-chains-and-context-switching'),
+ 'linked':('Microsoft: linked servers','https://learn.microsoft.com/en-us/sql/relational-databases/linked-servers/linked-servers-database-engine'),
+ 'tde':('Microsoft: Transparent Data Encryption','https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption'),
+ 'oracleusers':('Oracle: managing users','https://docs.oracle.com/en/database/oracle/oracle-database/19/admin/managing-users-and-securing-the-database.html'),
+ 'mysql':('MySQL: security and account management','https://dev.mysql.com/doc/refman/8.4/en/security.html'),
+ 'mysqlprep':('MySQL: prepared statements','https://dev.mysql.com/doc/refman/8.4/en/sql-prepared-statements.html'),
  'ike':('RFC 2409: legacy IKEv1','https://www.rfc-editor.org/rfc/rfc2409'),
  'serial':('RFC 1982: DNS serial arithmetic','https://www.rfc-editor.org/rfc/rfc1982.html'),
  'md5':('RFC 1321: MD5 (historical)','https://www.rfc-editor.org/rfc/rfc1321.html'),
@@ -621,12 +633,72 @@ for q in bank.values():
     if not q['e']:
         raise ValueError(('Missing explanation',q['id']))
 
-# Exact equivalent stems after punctuation/case normalization are duplicate questions.
+# Add breadth from reviewed restorations and original authored challenges. Shared
+# concepts are intentional; only literally duplicated stems are rejected below.
+restored_ids=[]
+expansion_ids=[]
+expansion_slugs={}
+for source in sorted((SUPPORT/'expansion').glob('*.tsv')):
+    for line_no,line in enumerate(source.read_text(encoding='utf-8').splitlines(),1):
+        if not line.strip() or line.startswith('#'):continue
+        fields=line.split('|')
+        if len(fields)!=11:raise ValueError((source.name,line_no,len(fields)))
+        slug,c,skill,ref,q,a,d1,d2,d3,e,p=fields
+        if slug.startswith('old:'):
+            idx=int(slug[4:])
+            if idx in bank:raise ValueError(('Restoration already active',idx))
+            restored_ids.append(idx);changes[idx]='Restored and reworked to recover useful breadth';retired.pop(idx,None)
+        else:
+            idx=100000+int(hashlib.sha256((c+':'+slug).encode()).hexdigest()[:10],16)
+            if idx in bank:raise ValueError(('Duplicate expansion identity',slug))
+        expansion_ids.append(idx)
+        if slug in expansion_slugs:raise ValueError(('Duplicate editorial slug',slug))
+        expansion_slugs[slug]=idx
+        bank[idx]=dict(id=idx,c=c,s=skill,refs=[ref],q=q,a=a,d=[d1,d2,d3],e=e,p=p,
+                      level='challenge' if not slug.startswith('old:') else 'foundation',origin='restored' if slug.startswith('old:') else 'breadth')
+
+# Hand-reviewed distractors address plausible mistakes in the same subject.
+for line in (SUPPORT/'expansion'/'distractors.txt').read_text(encoding='utf-8').splitlines():
+    if not line.strip() or line.startswith('#'):continue
+    slug,*alternatives=line.split('|')
+    assert len(alternatives)==3 and slug in expansion_slugs,slug
+    bank[expansion_slugs[slug]]['d']=alternatives
+
+# Reference catalog for additional areas of the public syllabus.
+refs.update({
+ 'ldap':('OWASP: LDAP injection','https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html'),
+ 'xxe':('OWASP: XML external entities','https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html'),
+ 'reset':('OWASP: password reset','https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html'),
+ 'rest':('OWASP: REST security','https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html'),
+ 'nntp':('RFC 3977: NNTP','https://www.rfc-editor.org/rfc/rfc3977.html'),
+ 'dnssec':('RFC 4033: DNSSEC','https://www.rfc-editor.org/rfc/rfc4033.html'),
+ 'sshcfg':('OpenSSH client configuration','https://man7.org/linux/man-pages/man5/ssh_config.5.html'),
+ 'sshauth':('RFC 4252: SSH authentication','https://www.rfc-editor.org/rfc/rfc4252.html'),
+ 'sqlroles':('Microsoft: SQL Server principals','https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/principals-database-engine'),
+ 'oracle':('Oracle: privileges and roles','https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/configuring-privilege-and-role-authorization.html'),
+ 'upload':('OWASP: file uploads','https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html'),
+ 'cors':('OWASP: HTML5 security','https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html'),
+ 'command':('OWASP: command injection','https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html'),
+ 'exchange':('Microsoft: Exchange extended protection','https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-extended-protection'),
+ 'smb':('Microsoft: SMB security','https://learn.microsoft.com/en-us/windows-server/storage/file-server/smb-security'),
+ 'authn':('OWASP: authentication','https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html'),
+ 'csp':('OWASP: Content Security Policy','https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html'),
+ 'tlscheat':('OWASP: transport protection','https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html'),
+ 'err':('OWASP: error handling','https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html'),
+ 'cookies':('RFC 6265: HTTP cookies','https://www.rfc-editor.org/rfc/rfc6265.html'),
+ 'xml':('W3C: XML specification','https://www.w3.org/TR/xml/'),
+ 'apache':('Apache HTTP server documentation','https://httpd.apache.org/docs/2.4/'),
+ 'php':('PHP security manual','https://www.php.net/manual/en/security.php'),
+ 'netcmd':('Microsoft: Windows command reference','https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands'),
+ 'hra':('Equality and Human Rights Commission: Article 8','https://www.equalityhumanrights.com/human-rights/human-rights-act/article-8-respect-your-private-and-family-life'),
+})
+
+# Reject accidental literal repeats, but retain different exercises on a concept.
 seen = {}
 for idx,q in list(sorted(bank.items())):
     norm = re.sub(r'[^a-z0-9]', '', q['q'].lower())
     if norm in seen:
-        retire([idx], f'Duplicate normalized stem of question {seen[norm]}')
+        raise ValueError(('Duplicate stem',idx,seen[norm]))
     else: seen[norm]=idx
 
 final = list(sorted(bank.values(),key=lambda q:q['id']))
@@ -634,6 +706,7 @@ for q in final:
     opts = [q['a'],*q['d']]
     assert len(opts) >= 4 and len({o.casefold().strip().rstrip('.') for o in opts})==len(opts), q['id']
     assert q['c'] in 'ABCDEFGHIJ' and q['e'].strip(), q['id']
+    assert all(ref in refs for ref in q.get('refs',[])), (q['id'],q.get('refs'))
     assert '\ufffd' not in json.dumps(q,ensure_ascii=False), q['id']
 
 review = dict(date='2026-10-14',original_count=len(original),final_count=len(final),
@@ -641,7 +714,8 @@ review = dict(date='2026-10-14',original_count=len(original),final_count=len(fin
     retired=[dict(id=i,reason=r,stem=original[i]['q']) for i,r in sorted(retired.items())],
     copyedited_ids=copyedited,category_counts=dict(collections.Counter(q['c'] for q in final)),
     original_sha256=hashlib.sha256(ORIGINAL.read_bytes()).hexdigest(),
-    methodology='Editorial screening of all stems/answers; targeted factual corrections; remove repeated recall and unsupported trivia; add original scenarios. Retained foundations are not an independently source-verified official exam bank.')
+    restored_ids=restored_ids,expansion_ids=expansion_ids,
+    methodology='Retain distinct learning exercises even when concepts recur; restore useful legacy breadth with corrections; expand every A-J group using original scenarios and explicit pitfalls. Mixed practice selects topics evenly.')
 (SUPPORT/'review.json').write_text(json.dumps(review,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 (SUPPORT/'bank.json').write_text(json.dumps(final,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 (SUPPORT/'references.json').write_text(json.dumps(refs,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')

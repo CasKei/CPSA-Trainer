@@ -1,0 +1,186 @@
+# Reviewed alternatives; slug|d1|d2|d3. Plausible misconceptions belong in choices; caveats belong in feedback.
+login-timing|Password spraying across several accounts|Session fixation using a known identifier|Credential stuffing using leaked passwords
+reauth-change|Rotation of the session only at initial login|An idle timeout that active requests continually renew|A CSRF token that accepts requests from the stolen session
+factor-types|A knowledge factor and a possession factor|Two independent possession factors|A knowledge factor and an inherence factor
+reset-host|Cookies attached to an unrelated domain automatically|A recovery token becoming predictable by itself|A password hash becoming reversible by itself
+reset-binding|The token to the requesting browser's User-Agent only|The submitted username to the public account directory|The token to the password's character count
+logout-server|Cookie transport protection with Secure|Session identifier rotation during initial login|Client-side cookie path selection
+idle-absolute|Idle timeout|Cookie path narrowing|Rotation only when the user logs in
+domain-cookie|It excludes sibling hosts while retaining the parent|It isolates each application by TCP port|It allows only the host that originally set it
+role-revoke|Password hashing work factor|Cookie identifier length|Login response consistency
+cache-session|A user receiving only their own stale local page|The cache forcing a fresh authorization check each time|The proxy assigning a separate database role per response
+csrf-token-bind|HTML encoding of token characters|Validation only of the token's expected length|Password hashing of the submitted form fields
+csrf-json|Whether the form encoding uses the same response serializer|Whether JSON property names are sorted alphabetically|Whether both handlers use the same frontend widget
+object-owner|Checking that the order ID is an integer|Checking that the requester has a valid session|Checking that the requested order exists
+function-role|Client-side menu visibility|Validation that the target user exists|Authentication without a role check
+tenant-field|A random tenant identifier without a membership check|A disabled tenant selector in the browser|Acceptance only through a JSON body
+mass-assignment|Remove isAdmin from the visible form but keep automatic binding|Require authentication but permit every model field|Validate each submitted field's type but not its permitted use
+workflow-price|Insufficient password-reset entropy|A missing session rotation after initial login|A missing CSRF token as the sole explanation
+bulk-authorization|Authorization only for the first and last records|Validation that every record identifier is numeric|One authentication check without object checks
+deny-default|Allow unmatched routes to authenticated users|Allow access when identifiers are unpredictable|Allow routes until a deny rule is explicitly added
+type-range|Numeric syntax validation alone|Contextual HTML output encoding|Session identifier rotation
+server-validation|Only in the browser's form validator|Only in the frontend state model|Only in the API documentation
+allowlist-identifier|Bind the column name as an ordinary string value|HTML-encode the column name before concatenation|Remove apostrophes but accept arbitrary expressions
+length-budget|Validation that each array element has the correct type|Parameter binding of every accepted value|Rotation of the caller's session cookie
+eval-input|A failure to salt stored password hashes|A failure to enforce object ownership|A failure to rotate the login session
+upload-extension|The request's declared Content-Type proves file type|The uploader's authenticated identity proves safe content|A filename allowlist alone proves safe decoder behavior
+upload-storage|To guarantee the file is harmless before content checks|To remove the need for download authorization|To ensure every image-processing library is safe
+upload-contenttype|A server-verified file signature|A successful independent content inspection|A guarantee of non-executable stored content
+errors-trace|A full stack trace with secret values replaced only in one line|The original database error and complete SQL statement|A detailed environment dump excluding just the HTTP password field
+debug-production|Hide its navigation link while retaining direct access|Permit access whenever an attacker supplies a debug header|Suppress error text but retain the interactive console
+log-secrets|Log tokens unchanged but omit usernames|Encode credential values with Base64 before logging|Keep full headers in a publicly readable debug log
+url-javascript|HTML-encode the link text but trust the URL scheme|Require the href value to be quoted but accept any scheme|Check that the value is a syntactically valid URL only
+tls-hostname|An expired certificate passing expiry validation|A trusted peer's certificate revealing its private key|A correctly authenticated server losing all traffic encryption
+mixed-content|Only the main document's certificate expiration|Only passive images loaded over protected transport|Only server-side SQL parameter binding
+hsts-first|The policy applies only after the second successful login|The browser learns the policy from an insecure HTTP header|HSTS disables certificate validation on the first connection
+token-https|Only prediction of a fresh high-entropy token|Only replay after server-enforced expiry|Only offline guessing of an undisclosed token
+cors-credentials|Whether untrusted origins can send any request at all|Whether native clients obey the same browser policy|Whether the Origin header can replace authentication
+config-backup|Remove directory listings while retaining guessable backup URLs|Change the backup suffix while keeping public read access|Block POST but allow unauthenticated GET to the artifacts
+default-admin|Rename the login URL while keeping vendor credentials|Hide the management link while keeping network access|Change the account's display name but keep its password
+security-headers|The total number of absent headers alone|The scanner's default severity without contextual evidence|The presence of HTTPS as proof that all other controls work
+baseline-contrast|Treat an input-correlated result as SQL injection without identifying its parser|Compare one modified request with an unrelated endpoint|Use only the longest response as evidence
+entry-headers|Only visible fields that have editable controls|Only POST fields containing apostrophes|Only parameters whose names suggest passwords
+hidden-field|As integrity-protected because it is not displayed|As authorized because the server originally supplied it|As immutable because the form uses HTTPS
+disabled-field|Submit the request only as an administrator|Verify that the frontend blocks mouse selection|Check that the field name is absent from the visible label
+hpp-first-last|A proven SQL syntax error in both components|A guarantee that both components reject the request|A guarantee that both values are combined consistently
+query-body|Whether both values are numeric|Whether the body field was originally hidden|Whether the requested account exists
+encoded-location|Both paths necessarily permit browser execution|Both paths necessarily reach the same parser|Neither path can accept additional encoded delimiters
+method-coverage|Whether numeric IDs have a uniform length|Whether the read response includes all editable fields|Whether the update operation is hidden in the UI
+content-type-path|Only the preferred JSON path|Only the frontend's declared request type|Only the path that responds with status 200
+negative-control-web|Use the same marker in every concurrent probe|Attribute a callback to the backend without checking intermediaries|Treat any callback as proof of sensitive data extraction
+session-replay|Check only that the cookie disappears locally|Check only that the user sees the login form|Use a new session created after logout
+cross-account|To ensure each object ID has a different length|To assume all peer accounts share identical permissions|To avoid checking the legitimate owner's permitted request
+cache-control-test|Whether the modified value has the same character count|Whether the client uses the same text encoding|Whether the frontend displays a search field
+redirect-result|Treat the 302 status as proof of unauthorized access|Inspect only the final page title|Assume redirects preserve every method and credential
+minimal-proof|Claim the maximum capability associated with the vulnerability name|Collect unrelated records before checking the demonstrated boundary|Omit the baseline because the modified response looks convincing
+quote-error|Confirmed SQL injection regardless of parser|Confirmed denial of service regardless of repeatability|Confirmed database privilege regardless of account context
+paired-boolean|One changed result after altering several unrelated fields|One slow request without a timing control|An SQL-looking error from an unrelated endpoint
+time-control|Match only the payload's expected sleep duration once|Assume an unusually slow baseline validates the injected condition|Use uncontrolled concurrent traffic as the comparison
+numeric-context|Quotes are the only SQL syntax with injection significance|Numeric IDs are safe whenever submitted through GET|An integer column means the application must bind the value
+order-allowlist|Only the bound term, since one parameter secures the whole query|Only the presence of a stored procedure name|Only whether the UI presents sorting as a dropdown
+stored-procedure|Yes; procedure boundaries automatically bind dynamic strings|Yes; input originating in a procedure is always trusted|Yes; a stored procedure removes all client influence
+second-order|Reflected injection confined to the original INSERT|A harmless value because the INSERT was parameterized|A database permission issue with no unsafe query construction
+orm-raw|Raw-query calls inherit automatic safety from the framework name|ORM model validation removes SQL syntax from arbitrary raw fragments|Only applications without ORM libraries need binding
+least-privilege-sql|The root cause is fixed despite continued concatenation|The SQL parser stops recognizing operators in boundless input|The endpoint no longer requires object authorization
+stacked-driver|That Boolean-based techniques are also impossible|That UNION-based techniques are also impossible|That rejection proves use of bound parameters
+db-errors-dialect|As proof of the exact patch level|As proof of administrator membership|As proof that OS-command features are enabled
+read-vs-write|Write capability on the same table without a separate test|Execution of arbitrary server-side programs|Access to every database under another login
+param-inside-quotes|It binds correctly because the character resembles a placeholder|It escapes every user input automatically|It substitutes for the driver's explicit binding call
+validation-only|HTML-encode the string before SQL concatenation|Reject spaces but accept all remaining query syntax|Escape using an unrelated DBMS's rules
+wide-encoding|Every encoding uses the same byte interpretation|HTTP percent encoding alone controls the SQL parser|Escaping correctness is independent of client connection settings
+transaction-test|Assume rollback reverses all external side effects|Assume every database API wraps the request in one transaction|Assume successful rollback proves no triggers ran
+test-precision|It guarantees access under a more privileged database account|It ensures errors will be suppressed rather than observed|It proves the endpoint accepts multiple SQL statements
+reflection-marker|Confirmed XSS because attacker input is visible|Confirmed stored XSS without persistence evidence|Confirmed DOM XSS without a client-side flow
+attribute-context|Only the marker's length|Only the request method used to submit it|Only whether the value was stored before rendering
+textarea-context|All positions inside HTML share one escaping requirement|A textarea value is automatically executable JavaScript|Persistence determines which delimiter the browser parses
+json-content-type|Yes; recognizable payload syntax proves execution|Yes; JSON text is automatically evaluated as HTML|No; JSON values can never reach an unsafe DOM sink
+source-sink|The mere presence of innerHTML in unrelated code|The marker appearing in an inert server log|A status 200 response without browser evidence
+hash-server|The server decodes the fragment only after authentication|TLS universally omits query strings from server logs|The fragment is always carried in a Cookie header
+stored-viewers|Storage permanently marked the value trusted|A role change automatically decoded all entities|The same sanitizer must protect all output contexts equally
+safe-sink-retest|Only the absence of the old API name in one file|Only a successful page load with no hostile input|Only a scanner's increased aggregate score
+event-attribute|Removing one script element covers all executable constructs|Permitted attributes cannot contain executable contexts|Signed-in users cannot submit dangerous markup
+sanitizer-mutate|Only the first safe intermediate string|Only whether a scanner recognizes the sanitizer package|Only whether the initial value contains a script element
+csp-browser-proof|Confirmed script execution despite the observed block|Confirmed safe handling at the injection sink|Confirmed protection under every other policy and browser
+encoded-not-decoded|SQL execution from the visible characters|Session theft from the visible characters|Successful markup creation without a DOM observation
+url-sink-test|Only safe quoting of the attribute delimiter|Only that the URL has a colon|Only that the link text contains no angle brackets
+browser-context|It proves all extensions and applications share identical execution rules|It makes a popup sufficient proof without tracing input|It replaces the need to record the actual request
+authorization-token|Change the signature while leaving the unsigned field fixed|Decode the signed claim without testing server behavior|Assume the signature covers every adjacent parameter
+base64-trust|Integrity protection against altered bytes|Confidentiality from anyone holding the encoded value|A server-enforced permission decision
+role-method-test|An authentication failure confined to the GET operation|A harmless frontend difference regardless of resulting state|A database injection established by the changed method
+status-only|A rejected operation because 403 is authoritative|A client-only cosmetic change without checking stored state|An authorized change because the requester has a session
+multi-step-bypass|Only the first step's eligibility result|Only validation that the discount ID exists|Only the frontend's progression between screens
+race-balance|A stale authorization role without concurrency effects|A SQL syntax injection demonstrated by timing alone|An invalid amount type rather than a consistency failure
+reset-old-password|Reload the reset confirmation page|Reuse a session authenticated before the reset|Compare the old and new passwords' lengths
+token-expiry|Only the client's displayed expiration warning|Only the token's decoded timestamp|Only that the token has the expected field names
+non-admin-read|Full administrator takeover without other capability evidence|No issue because the admin menu is unavailable|A transport failure rather than report access
+field-sensitive|Object existence checking|Login password policy|Input type validation alone
+alternate-channel|Only the desktop frontend's rendering rules|Only the mobile client's hidden navigation controls|Only the preferred API version while leaving the alternate path
+error-vs-access|Confirmed complete account takeover|Confirmed modification of the named user's records|Confirmed absence of disclosure because the request failed
+state-recheck|Whether queue insertion used a syntactically valid object ID|Whether the user was logged in at any point in the past|Whether the job name is unpredictable
+evidence-redaction|An aggregate scanner score without a reproducible request|A maximum-impact claim based on the weakness name alone|Only the forbidden endpoint's public page title
+authz-cached-claim|Different users making unrelated requests|Only the role-change UI confirmation|Only a request to the public homepage on one instance
+quote-count|Only that literal apostrophes are now banned|Only that a benign input lacking punctuation succeeds|Only that SQL errors are hidden from the client
+dbms-driver|Determine business authorization for each application user|Automatically parameterize every raw query string|Replace the database's privilege enforcement
+odbc-dsn|A database role automatically granted to every client|An integrity check that authenticates each SQL statement|A password hash stored for every table owner
+connection-secret|Remove the current file without changing the exposed credential|Base64-encode the same credential in the next commit|Rename the connection variable but keep the credential valid
+pool-reuse|Each request is guaranteed a brand-new server session|Pooling removes all session context before any driver configuration|Pooling makes application transactions atomic across requests
+db-tls-validation|Only password entropy|Only query placeholder validity|Only database row-level permissions
+db-network-allow|Trust in the subnet as the sole permission check|A hidden listener port as the sole identity check|A descriptive instance name as the sole access control
+service-inventory|One instance's version establishes every instance's build|A login accepted by one instance is accepted by all|An instance name itself establishes administrative ownership
+banner-version|The service using its conventional port|A product family without its build information|A scanner's guess without an applicability check
+access-file|Only the SQL Server instance's server roles|Only an Oracle listener's remote administration policy|Only a MySQL network bind address
+backup-exposure|Only an overly broad live SELECT grant|Only a database password complexity failure|Only a network authentication negotiation failure
+db-log-secret|Only the bound query's separation of syntax and values|Only application object ownership checks|Only the SQL tracing feature's performance overhead
+readonly-connection|The client's descriptive label alone|The absence of UPDATE in one observed request|The use of a reporting-oriented driver name
+db-schema-metadata|Ownership of the visible tables|Read permission on all visible columns|Write permission on every named object
+db-availability|A confirmed incorrect password|A confirmed nonexistent account|A confirmed secure authentication configuration
+mssql-login-user|Both are always scoped to the current database|A database user always grants instance-wide administration|A server login guarantees read access to every database
+mssql-dbowner|The need to assess database-level authority|The existence of powerful rights in that database|The possibility of other escalation paths needing verification
+mssql-sysadmin|It restricts the app to one database view|It enforces per-tenant filters on every query|It binds all application input automatically
+mssql-integrated|The browser's displayed username regardless of backend configuration|The database owner's identity regardless of connection configuration|The interactive Windows user regardless of service execution
+mssql-role-path|Only direct grants contribute to effective access|Role grants apply only to the role's creator|The successful read proves sysadmin membership
+mssql-ownership|Client-side query caching|Password-based authentication alone|A login's default database selection alone
+mssql-execute-as|Only the caller's direct table grants|Only the module's metadata visibility|Only whether the caller can see the admin UI
+mssql-dynamic-chain|Dynamic statements always inherit every static statement's behavior|Procedure boundaries remove the need to check dynamic-query privileges|Dynamic statements cannot use caller-controlled input
+mssql-xp-disabled|All OS interaction is impossible|All database accounts have least privilege|SQL injection is impossible in that instance
+mssql-xp-context|It always equals the interactive browser user|It always equals local SYSTEM|It always equals the database object's owner name
+mssql-linked|The link guarantees local and remote rights are identical|The link automatically restricts all remote work to SELECT|The link prevents local users from invoking the remote mapping
+mssql-contained|Users can have database-level permissions|Authentication context affects connection behavior|A database can hold its own security principals
+mssql-public|Only users with public in their account name|Only users explicitly added through a custom membership list|Only server-level administrators
+mssql-permission-scope|db_datareader across the database|Both grants necessarily expose identical rows and columns|A broad read grant plus a hidden report menu
+mssql-service-account|Domain membership ensures SQL values are safely bound|Domain administration restricts the service to read-only SQL|Domain authority cannot affect consequences outside the database
+mssql-auth-mode|Every enabled SQL login has weak credentials|Every Windows login receives sysadmin membership|Every database connection lacks transport protection
+mssql-revoke|Revocation also removes every role-based grant|Revocation changes the table's owner automatically|Revocation invalidates every other principal's permissions
+mssql-tde-limit|The need to protect database encryption keys|The need to back up required decryption material|The ability to access data after successful authorized decryption
+mssql-backup-right|Only direct SELECT grants matter for data exposure|Backup permissions are unrelated to confidential data|A hidden backup filename supplies sufficient access control
+mssql-audit-limit|Yes; audit recording stops the query from returning rows|Yes; a logged action necessarily passed an appropriate business policy|Yes; auditing substitutes for least-privilege grants
+oracle-schema-user|Yes; every schema requires a password-authenticated user|Yes; schema ownership proves an unlocked login|Yes; schema names always map to local OS accounts
+oracle-create-session|Selecting every application's table|Granting roles to other accounts|Creating all database schemas
+oracle-system-object|Both necessarily grant the same object scope|The single-object grant also delegates administration automatically|The broad system privilege is just a table alias
+oracle-with-grant|Granting every unrelated system privilege|Acquiring SYSDBA authentication automatically|Changing the object's filesystem owner
+oracle-admin-option|Delegating any unrelated object privilege|Executing every statement as SYS|Restricting the granted role to read-only operations
+oracle-sysdba|It is required for ordinary application SELECT queries|It limits access to the caller's own tables|It only allows inspection of listener metadata
+oracle-listener|Successful database authentication|Confirmed read access to the selected schema|Confirmed administrative database rights
+oracle-service-sid|A service name identifies the authenticated principal|A service name supplies the account's password|A service name establishes role membership
+oracle-cdb-pdb|One PDB login proves identical access to every PDB|Every locally granted role applies across all containers|The service name has no relationship to connection context
+oracle-defaults|The historical credential proves a present unlocked login|Presence of a sample schema proves its password is unchanged|An old sample-account name proves SYSDBA access
+oracle-locked|Its schema objects are necessarily unreachable through all programs|Every other user's grants to its objects are revoked|Its data is deleted by the lock operation
+oracle-definer|Only the caller's direct grants|Only whether the caller can list the procedure name|Only whether input types match the formal parameters
+oracle-invoker|Authority always follows SYS regardless of invoker|Authority always follows the object's owner regardless of mode|Invoker rights automatically sanitize dynamic SQL
+oracle-db-link|Only the local account's visible table names|Only whether the link's name is guessable|Only whether the local caller can connect to the listener
+oracle-directory|Yes; directory grants override all OS file permissions|Yes; directory access automatically grants SYSDBA|Yes; any directory grant permits every server path
+oracle-audit|Both prove that data was successfully retrieved|Failed login events prove the account does not exist|Privilege-use events alone establish exact client business intent
+mysql-account-host|The username alone uniquely determines grants|Both host entries necessarily share credentials|The percent host pattern inherently grants administrator rights
+mysql-grant-scope|The available TCP source ports|The account's password hashing work factor|The choice of certificate authority
+mysql-file|Guaranteed OS root authority|Automatic ownership of every table|Unrestricted file access despite server and OS restrictions
+mysql-local-infile|LOCAL always reads a server-host file|LOCAL makes the client irrelevant to file handling|LOCAL requires the file to be inside the server data directory
+mysql-prepared|Yes; a table identifier is an ordinary bound string value|Yes; markers replace arbitrary SQL keywords|Yes; binding a sort expression permits any submitted syntax
+db-foreign-key|Yes; a valid referenced ID proves requester ownership|Yes; relational integrity substitutes for tenant policy|Yes; a foreign key binds the request to its login session
+db-view-filter|The view automatically revokes all base-table rights|The view's projection changes the app's authenticated identity|The view name alone supplies a separate authorization boundary
+db-encryption-app|Only theft of ciphertext without the key|Only guessing the table name|Only knowing the encryption algorithm name
+db-json-input|Yes; JSON syntax itself prevents SQL interpretation|Yes; JSON values cannot contain SQL-significant characters|Yes; JSON serialization replaces database binding
+db-password-vs-data|A one-way password verification hash|A Base64 encoding of the plaintext|A fast unkeyed checksum used as encryption
+db-migration-rights|Retain full runtime DBA rights but hide migration UI|Use one administrator principal for every environment|Put migration credentials in the distributed frontend
+db-connection-failover|Only the primary endpoint's working validation|Only the standby server's connection-string syntax|Only the presence of encryption without endpoint authentication
+db-export-retention|Only least privilege on the live database|Only parameterization in the exporting query|Only a descriptive temporary-file name
+db-parameter-log|SQL syntax/value separation through binding|The driver's placeholder syntax|Supported data-type handling in the parameter API
+db-privilege-retest|Only a shorter direct-grant list|Only a successful connection handshake|Only that the runtime process starts
+db-row-filter|Only presence of a primary key|Only use of bound parameters|Only the number of tenant IDs in the export request
+db-view-write|Yes; SELECT grants include UPDATE by default|Yes; view visibility alone establishes write permission|Yes; any updatable view grants its own write authority
+db-key-backup|Only integrity of relational primary keys|Only query parameter handling|Only row-level authorization on the live database
+network-five-tuple|Only the source and destination IP addresses|Only the destination port shared by both flows|Only the client network's subnet mask
+path-search|Only whether the script uses a supported interpreter|Only whether the intended binary has safe arguments|Only whether the privileged account has a strong password
+hostname-trust|Only whether the peer presents an expected text banner|Only whether the configured name is easy to remember|Only whether the user supplied a syntactically valid hostname
+trusted-forwarded|Which User-Agent strings are permitted|Which database users have read-only roles|Which HTTP methods the frontend usually uses
+mfa-recovery|A defect established in the hardware key's signature algorithm|Failure to salt password hashes as the demonstrated cause|Failure to shorten session identifiers as the demonstrated cause
+service-config-write|Only disclosure of the service's descriptive metadata|Only execution with the requesting user's existing token|Automatic domain compromise without further privilege evidence
+common-app-exploit|Only that the PoC name matches the product family|Only that the exploit succeeded against another release|Only that a scanner classified the product as vulnerable
+admin-member|Group membership alone, ignoring the running token|The process executable's filename alone|The account's default login directory alone
+kiosk-file-dialog|Only whether the desktop shortcut remains hidden|Only whether the app launches in fullscreen|Only whether the standard shell is absent from the start menu
+exchange-auth-surface|Only that TLS is enabled at the login page|Only that one frontend login path requires MFA|Only that usernames have the organization's email suffix
+dmz-db|Only whether inbound Internet connections are blocked at the database|Only whether the web server has a private IP address|Only whether the database listener uses its usual port
+soap-fault|Only whether HTTP status is 200 or 500|Only whether the XML is well-formed|Only whether the method was declared in the service definition
+scope-api|Assume all interfaces are included by the website product name|Assume the mobile API is excluded without recording that limitation|Count mobile screens instead of identifying technical assets
+change-during-test|Assign all observations to the newest build automatically|Keep the original build label without recording the change|Treat findings as equally applicable across builds without retesting
+evidence-state|Only the final request without its required setup|Only the final status code without the state change|Only a screenshot after the prerequisite state disappears
+scope-budget-change|Silently preserve the original depth guarantee on every new asset|Silently drop original assets without recording a coverage change|Assume a larger discovered scope always extends authorization

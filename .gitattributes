@@ -7,3 +7,5 @@ CPSA_Trainer_support/*.md text eol=lf
 CPSA_Trainer_support/CPSA_Trainer.original-2026-10-14.html -text
 CPSA_Trainer_support/*.js text eol=lf
 CPSA_Trainer_support/*.css text eol=lf
+CPSA_Trainer_support/expansion/*.tsv text eol=lf
+CPSA_Trainer_support/expansion/*.txt text eol=lf

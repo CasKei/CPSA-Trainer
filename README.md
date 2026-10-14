@@ -22,17 +22,34 @@ git clone https://github.com/CasKei/CPSA-Trainer.git
 - **Pause and resume:** recover drills, flashcards, and mock exams after refreshing or changing modes. Exam countdowns retain their original deadline.
 
 
-## Question-bank revision — October 14, 2026
+## Question-bank expansion — October 14, 2026
 
-The active bank contains **444 questions** across broad syllabus groups A–J:
-225 former questions corrected or reworked, 127 retained foundations, and 92 new
-original scenarios. Changes address typos, incorrect premises, alternative correct
-options, duplicate recall, obvious distractors, and answer-length clues.
+The active bank contains **1,034 questions**, exceeding the original 956.
+The latest expansion preserves the previous 444 questions and adds **482 original
+questions plus 108 corrected legacy exercises**, with explanations and pitfalls.
+Useful repeated concepts remain when separate exercises teach different applications.
 
-604 former questions were retired for repetition, weak construction, unsupported
-claims, or relevance. The complete original is preserved under
-[CPSA_Trainer_support](CPSA_Trainer_support/README.md), with an ID-by-ID retirement
-record, editable data, rebuild scripts, and browser validation results.
+| Topic | Questions |
+| --- | ---: |
+| A — Assessment management | 100 |
+| B — Core technical skills | 134 |
+| C — Information gathering | 100 |
+| D — Networking equipment | 100 |
+| E — Windows | 100 |
+| F — Unix | 100 |
+| G — Web technologies | 100 |
+| H — Web testing methodologies | 100 |
+| I — Web testing techniques | 100 |
+| J — Databases | 100 |
+
+Mixed drills, weakness review, and flashcards balance topics before adapting question
+choice within each topic. A 20-question mixed session normally includes two from
+each group. Filters are applied first; depleted groups contribute their available
+items and remaining slots go to other groups. Individual topic drills stay focused.
+
+The complete original is preserved under
+[CPSA_Trainer_support](CPSA_Trainer_support/README.md), alongside reviewed restorations,
+remaining retirement records, editable expansion data, rebuild scripts, and validation.
 
 Research used the [CREST syllabus and candidate information](https://www.crest-approved.org/skills-certifications-careers/crest-practitioner-security-analyst/),
 Nmap documentation, RFCs, OWASP guidance, Microsoft documentation, NIST publications,
@@ -50,7 +67,7 @@ understanding, rather than as deployment recommendations.
 ## Progress and privacy
 
 Progress is stored in your browser's local storage. Export/import backups from
-Settings to move between browsers or file locations. The revision retains progress
+Settings to move between browsers or file locations. The additive expansion preserves current questions and compatible saved sessions. The original revision retains progress
 for unchanged IDs and archives old records for rewritten or retired questions.
 Historical mock summaries remain available. Flashcard self-ratings are tracked
 separately for new practice; historical counters may contain older self-ratings.
@@ -63,7 +80,7 @@ reference; use the trainer for current practice.
 
 See the [maintenance guide](CPSA_Trainer_support/README.md) for editorial sources,
 rebuilding, and headless browser verification. Verification covers progress
-migration, all-question rendering, search/filter/retry flows, mock sampling, exact
+migration, all-question rendering, search/filter/retry flows, balanced mixed and mock sampling, exact
 pass thresholds, timer submission, mobile layout, and offline runtime behavior.
 
 Credits to cy83rv1p3r, Claude, and Codex.

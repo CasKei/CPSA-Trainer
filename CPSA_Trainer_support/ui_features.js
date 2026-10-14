@@ -77,7 +77,24 @@ function approveNewSession(){
 const baseStartExam=startExam;
 startExam=function(){if(!approveNewSession())return;clearSavedSession();baseStartExam();focusQuestion();};
 const baseMakeSession=makeSession;
-makeSession=function(mode,pool,len,title){if(!pool.length){toast('No questions match this practice filter');return;}if(!approveNewSession())return;clearSavedSession();baseMakeSession(mode,pool,len,title);focusQuestion();};
+let selectionMode=null;
+const baseWeight=weight;
+weight=function(q){const s=S.stats[q.id];return baseWeight(q)*(selectionMode==='weak'&&s?.n>0&&s.box===0?1.8:1);};
+const pickWithinTopic=pickWeighted;
+pickWeighted=function(pool,n){
+  const groups=new Map();for(const q of pool){if(!groups.has(q.c))groups.set(q.c,[]);groups.get(q.c).push(q);}
+  const topics=shuffle([...groups.keys()]),quotas=new Map(topics.map(c=>[c,0]));
+  let remaining=Math.min(n,pool.length);
+  while(remaining>0)for(const c of topics){if(remaining>0&&quotas.get(c)<groups.get(c).length){quotas.set(c,quotas.get(c)+1);remaining--;}}
+  return shuffle(topics.flatMap(c=>pickWithinTopic(groups.get(c),quotas.get(c))));
+};
+startWeak=function(){makeSession('weak',practicePool(inScope()),LEN,'Weakness review');};
+makeSession=function(mode,pool,len,title){
+  if(!pool.length){toast('No questions match this practice filter');return;}
+  if(!approveNewSession())return;clearSavedSession();selectionMode=mode;
+  try{baseMakeSession(mode,pool,len,title);}finally{selectionMode=null;}
+  focusQuestion();
+};
 const baseSetLen=setLen;
 setLen=function(n){baseSetLen(n);S.settings.sessionLength=LEN;save();};
 LEN=[10,20,40].includes(S.settings.sessionLength)?S.settings.sessionLength:20;

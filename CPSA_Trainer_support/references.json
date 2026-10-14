@@ -159,6 +159,54 @@
     "Cisco: SNMP configuration copy",
     "https://www.cisco.com/c/en/us/support/docs/ip/simple-network-management-protocol-snmp/15217-copy-configs-snmp.html"
   ],
+  "wstg": [
+    "OWASP: Web Security Testing Guide",
+    "https://owasp.org/www-project-web-security-testing-guide/"
+  ],
+  "hpp": [
+    "OWASP: HTTP parameter pollution",
+    "https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Injection/04-HTTP_Parameter_Pollution"
+  ],
+  "pci": [
+    "PCI SSC: card verification values",
+    "https://www.pcisecuritystandards.org/faqs/are-merchants-allowed-to-request-card-verification-codes-values-from-cardholders/"
+  ],
+  "odbc": [
+    "Microsoft: ODBC overview",
+    "https://learn.microsoft.com/en-us/sql/odbc/reference/odbc-overview"
+  ],
+  "access": [
+    "Microsoft: Access security",
+    "https://support.microsoft.com/en-us/access/split-an-access-database"
+  ],
+  "sqlperm": [
+    "Microsoft: database permissions",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/security/permissions-database-engine"
+  ],
+  "sqlchain": [
+    "Microsoft: ownership chains and execution context",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/tutorial-ownership-chains-and-context-switching"
+  ],
+  "linked": [
+    "Microsoft: linked servers",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/linked-servers/linked-servers-database-engine"
+  ],
+  "tde": [
+    "Microsoft: Transparent Data Encryption",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption"
+  ],
+  "oracleusers": [
+    "Oracle: managing users",
+    "https://docs.oracle.com/en/database/oracle/oracle-database/19/admin/managing-users-and-securing-the-database.html"
+  ],
+  "mysql": [
+    "MySQL: security and account management",
+    "https://dev.mysql.com/doc/refman/8.4/en/security.html"
+  ],
+  "mysqlprep": [
+    "MySQL: prepared statements",
+    "https://dev.mysql.com/doc/refman/8.4/en/sql-prepared-statements.html"
+  ],
   "ike": [
     "RFC 2409: legacy IKEv1",
     "https://www.rfc-editor.org/rfc/rfc2409"
@@ -182,5 +230,105 @@
   "natt": [
     "RFC 3948: UDP encapsulation of ESP",
     "https://www.rfc-editor.org/rfc/rfc3948.html"
+  ],
+  "ldap": [
+    "OWASP: LDAP injection",
+    "https://cheatsheetseries.owasp.org/cheatsheets/LDAP_Injection_Prevention_Cheat_Sheet.html"
+  ],
+  "xxe": [
+    "OWASP: XML external entities",
+    "https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html"
+  ],
+  "reset": [
+    "OWASP: password reset",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html"
+  ],
+  "rest": [
+    "OWASP: REST security",
+    "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html"
+  ],
+  "nntp": [
+    "RFC 3977: NNTP",
+    "https://www.rfc-editor.org/rfc/rfc3977.html"
+  ],
+  "dnssec": [
+    "RFC 4033: DNSSEC",
+    "https://www.rfc-editor.org/rfc/rfc4033.html"
+  ],
+  "sshcfg": [
+    "OpenSSH client configuration",
+    "https://man7.org/linux/man-pages/man5/ssh_config.5.html"
+  ],
+  "sshauth": [
+    "RFC 4252: SSH authentication",
+    "https://www.rfc-editor.org/rfc/rfc4252.html"
+  ],
+  "sqlroles": [
+    "Microsoft: SQL Server principals",
+    "https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/principals-database-engine"
+  ],
+  "oracle": [
+    "Oracle: privileges and roles",
+    "https://docs.oracle.com/en/database/oracle/oracle-database/19/dbseg/configuring-privilege-and-role-authorization.html"
+  ],
+  "upload": [
+    "OWASP: file uploads",
+    "https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html"
+  ],
+  "cors": [
+    "OWASP: HTML5 security",
+    "https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html"
+  ],
+  "command": [
+    "OWASP: command injection",
+    "https://cheatsheetseries.owasp.org/cheatsheets/OS_Command_Injection_Defense_Cheat_Sheet.html"
+  ],
+  "exchange": [
+    "Microsoft: Exchange extended protection",
+    "https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-extended-protection"
+  ],
+  "smb": [
+    "Microsoft: SMB security",
+    "https://learn.microsoft.com/en-us/windows-server/storage/file-server/smb-security"
+  ],
+  "authn": [
+    "OWASP: authentication",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html"
+  ],
+  "csp": [
+    "OWASP: Content Security Policy",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html"
+  ],
+  "tlscheat": [
+    "OWASP: transport protection",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Protection_Cheat_Sheet.html"
+  ],
+  "err": [
+    "OWASP: error handling",
+    "https://cheatsheetseries.owasp.org/cheatsheets/Error_Handling_Cheat_Sheet.html"
+  ],
+  "cookies": [
+    "RFC 6265: HTTP cookies",
+    "https://www.rfc-editor.org/rfc/rfc6265.html"
+  ],
+  "xml": [
+    "W3C: XML specification",
+    "https://www.w3.org/TR/xml/"
+  ],
+  "apache": [
+    "Apache HTTP server documentation",
+    "https://httpd.apache.org/docs/2.4/"
+  ],
+  "php": [
+    "PHP security manual",
+    "https://www.php.net/manual/en/security.php"
+  ],
+  "netcmd": [
+    "Microsoft: Windows command reference",
+    "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands"
+  ],
+  "hra": [
+    "Equality and Human Rights Commission: Article 8",
+    "https://www.equalityhumanrights.com/human-rights/human-rights-act/article-8-respect-your-private-and-family-life"
   ]
 }
